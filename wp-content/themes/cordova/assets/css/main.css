@@ -6195,19 +6195,19 @@ button.close {
   font-family: News-Gothic;
   font-weight: normal;
   font-style: normal;
-  src: url("http://local.wordpress.dev/wp-content/themes/Cordova/assets/fonts/NewsGotBTRom") format("opentype");
+  src: url("http://cordova.wpengine.com/wp-content/themes/cordova/assets/fonts/NewsGotBTRom") format("opentype");
 }
 @font-face {
   font-family: Gibson-Light;
   font-weight: light;
   font-style: normal;
-  src: url("http://local.wordpress.dev/wp-content/themes/Cordova/assets/fonts/Gibson-Light.otf") format("opentype");
+  src: url("http://cordova.wpengine.com/wp-content/themes/cordova/assets/fonts/Gibson-Light.otf") format("opentype");
 }
 @font-face {
   font-family: Gibson;
   font-weight: normal;
   font-style: normal;
-  src: url("http://local.wordpress.dev/wp-content/themes/Cordova/assets/fonts/Gibson.otf") format("opentype");
+  src: url("http://cordova.wpengine.com/wp-content/themes/cordova/assets/fonts/Gibson.otf") format("opentype");
 }
 body {
   font-family: "News-Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -6565,8 +6565,18 @@ footer {
   width: 100%;
   z-index: 1;
 }
-#googleMap {
-  height: 400px;
+@media (min-width: 768px) {
+  #googleMap {
+    height: 400px;
+  }
+}
+@media (max-width: 768px) {
+  #googleMap {
+    height: 0px;
+  }
+  #map-header {
+    display: none;
+  }
 }
 #googleMap img {
   max-width: none;
@@ -6601,14 +6611,16 @@ footer {
   opacity: 0;
   display: none;
 }
-.lead-dark {
-  -webkit-filter: blur(5px);
-  -webkit-transition: all 0.7s ease;
-}
-.lead-dark:hover {
-  -webkit-filter: blur(0px);
-  opacity: 50%;
-  overflow: hidden;
+@media (min-width: 768px) {
+  .lead-dark {
+    -webkit-filter: blur(5px);
+    -webkit-transition: all 0.7s ease;
+  }
+  .lead-dark:hover {
+    -webkit-filter: blur(0px);
+    opacity: 50%;
+    overflow: hidden;
+  }
 }
 .img-center {
   display: block;

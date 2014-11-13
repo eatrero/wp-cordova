@@ -25,16 +25,25 @@
     opacity: 0;
     display: none;
 }
-.lead-dark{
-  -webkit-filter: blur(5px);
-  -webkit-transition: all 0.7s ease;
+@media (min-width: 768px) {
+  .lead-dark{
+    -webkit-filter: blur(5px);
+    -webkit-transition: all 0.7s ease;
+  }
+  .lead-dark:hover{
+      -webkit-filter: blur(0px);
+      opacity:50%;
+      overflow:hidden;
+  }
 }
 
-.lead-dark:hover{
-    -webkit-filter: blur(0px);
-    opacity:50%;
-    overflow:hidden;
+@media (max-width: 768px) {
+  .lead-dark{
+  }
+  .lead-dark:hover{
+  }
 }
+
 .img-center {
   display: block;
   margin-left: auto;

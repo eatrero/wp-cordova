@@ -30,9 +30,23 @@ footer {
    z-index: 1;
 
 }
-#googleMap {
-   height: 400px;
+
+@media (min-width: 768px) {
+  #googleMap {
+     height: 400px;
+  }
 }
+
+@media (max-width: 768px) {
+  #googleMap{
+     height: 0px;
+  }
+  #map-header{
+     display: none;
+  }
+
+}
+
 #googleMap img { max-width: none; }
 
 #map-header {
