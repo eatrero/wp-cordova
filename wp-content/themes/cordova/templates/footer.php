@@ -20,7 +20,7 @@
 
     	</div>
     </section>
-    <div class="copyright-text">©2014 Nathan Cordova. Site Design by <a href="beastco.de">BEASTCODE.</a></p>
+    <div class="copyright-text">©2014 Nathan Cordova. Site Design by <a href="http://beastco.de">BEASTCODE.</a></p>
   </div>
 </footer>
 

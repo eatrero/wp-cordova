@@ -6418,6 +6418,13 @@ figure.alignnone {
     width: 66.66666667%;
   }
 }
+.introduction {
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: -8px;
+  margin-right: -8px;
+}
 .nav > li {
   position: relative;
   display: inline-block;
