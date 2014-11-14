@@ -2095,12 +2095,12 @@
 }(jQuery);
 ;$('.entry-title').hover(
   function(){
-	 $(this).parent().find('.lead-image-container').find('img').removeClass('lead-dark');
-	 $(this).parent().find('.lead-image-container').removeClass('lead-image-container').addClass('lead-image');
+	 $(this).parent().find('img').removeClass('lead-dark');
+	 $(this).parent().removeClass('lead-image-container').addClass('lead-image');
   },
   function(){
-	 $(this).parent().find('.lead-image').find('img').addClass('lead-dark');
-	 $(this).parent().find('.lead-image').removeClass('lead-image').addClass('lead-image-container');
+	 $(this).parent().find('img').addClass('lead-dark');
+	 $(this).parent().removeClass('lead-image').addClass('lead-image-container');
   }
 );;/* ========================================================================
  * DOM-based Routing

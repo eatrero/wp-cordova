@@ -20,3 +20,21 @@ function roots_wp_title($title) {
   return $title;
 }
 add_filter('wp_title', 'roots_wp_title', 10);
+
+/**
+ * 
+ */
+function roots_cordova_filter_content($content) {
+	if(is_single()) {
+		$doc = new DOMDocument();
+		$doc->loadHTML($content);
+
+		$imgs = $doc->getElementsByTagName('img');
+		foreach ($imgs as $img) {
+			$img->setAttribute('class', 'img-responsive');
+		}
+		$content = $doc->saveXML();
+	}	
+	return $content;
+}
+add_filter('the_content', 'roots_cordova_filter_content');

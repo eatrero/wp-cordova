@@ -6293,6 +6293,12 @@ body {
   color: white;
   display: float;
 }
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #000000;
+}
 .btn-sm,
 .btn-group-sm > .btn,
 .btn-group-sm > .btn {
@@ -6472,6 +6478,10 @@ figure.alignnone {
 }
 .navbar-default .navbar-brand {
   color: #85cad1;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: white;
 }
 .navbar-default .navbar-nav > li > a {
   -webkit-transition: all 0.4s ease-in-out;
@@ -6654,5 +6664,24 @@ h2.entry-title {
 }
 .article-container {
   margin-bottom: 8px;
+}
+.blog-article {
+  background-color: white;
+  padding: 24px;
+}
+@media (min-width: 990px) {
+  .entry-title {
+    top: 40%;
+  }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+  .entry-title {
+    top: 37%;
+  }
+}
+@media (max-width: 768px) {
+  .entry-title {
+    top: 35%;
+  }
 }
 /*# sourceMappingURL=main.css.map */
