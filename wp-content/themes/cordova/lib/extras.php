@@ -31,7 +31,7 @@ function roots_cordova_filter_content($content) {
 
 		$imgs = $doc->getElementsByTagName('img');
 		foreach ($imgs as $img) {
-			$img->setAttribute('class', 'img-responsive');
+			$img->setAttribute('class', 'img-responsive blog-images');
 		}
 		$content = $doc->saveXML();
 	}	
