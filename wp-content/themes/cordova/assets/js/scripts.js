@@ -2093,16 +2093,7 @@
   })
 
 }(jQuery);
-;$('.entry-title').hover(
-  function(){
-	 $(this).parent().find('img').removeClass('lead-dark');
-	 $(this).parent().removeClass('lead-image-container').addClass('lead-image');
-  },
-  function(){
-	 $(this).parent().find('img').addClass('lead-dark');
-	 $(this).parent().removeClass('lead-image').addClass('lead-image-container');
-  }
-);;/* ========================================================================
+;;/* ========================================================================
  * DOM-based Routing
  * Based on http://goo.gl/EUTi53 by Paul Irish
  *
