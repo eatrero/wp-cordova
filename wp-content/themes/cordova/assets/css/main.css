@@ -6214,7 +6214,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
-  background-color: #eff0ef;
+  background-color: white;
 }
 .row {
   margin-left: -4px;
@@ -6480,11 +6480,11 @@ figure.alignnone {
   }
 }
 .navbar-default {
-  background-color: #1b1c21;
-  border-color: #1b1c21;
+  background-color: #373949;
+  border-color: #373949;
 }
 .navbar-default .navbar-brand {
-  color: #85cad1;
+  color: white;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
@@ -6565,7 +6565,7 @@ footer {
 }
 .footer-row {
   width: auto;
-  background-color: #1b1c21;
+  background-color: #eff0ef;
 }
 .footer-row > .container > section {
   color: #646464;

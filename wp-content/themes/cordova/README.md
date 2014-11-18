@@ -103,3 +103,8 @@ Everyone is welcome to help [contribute](CONTRIBUTING.md) and improve this proje
 ## Support
 
 Use the [Roots Discourse](http://discourse.roots.io/) to ask questions and get support.
+
+> git remote add production git@git.wpengine.com:production/cordova.git
+> git add . --all
+> git commit -m 'update ignore'
+> git push -f production master
