@@ -15,7 +15,9 @@
 
 	    	<div class="col-sm-6 col-md-4 col-xs-12">
 		    	<h3> Contact.</h3>
-		    	<?php gravity_form(1, false, false, false, '', true); ?>
+		    	<div class="contact-form">
+  		    	<?php gravity_form(1, false, false, false, '', true); ?>
+  		    </div>
 	    	</div>
     	</div>
 
@@ -133,23 +135,24 @@ if(document.getElementById('googleMap')){
 </script>
 <script>
 
-	$('#field_1_5,#field_1_2').wrapAll('<div class="row">');
-	$('#field_1_3,#field_1_4').wrapAll('<div class="row">');
+	$("[id='field_1_5']","[id='field_1_2']").wrapAll('<div class="row">');
+	$("[id='field_1_3']","[id='field_1_4']").wrapAll('<div class="row">');
 	$('.ginput_container').children().removeClass('medium');
-	$('#field_1_5').wrap('<div class="form-group col-md-6 col-sm-12 col-xs-6"></div>');
-	$('#field_1_2').wrap('<div class="form-group col-md-6 col-sm-12 col-xs-6"></div>');
-	$('#field_1_3').wrap('<div class="form-group col-md-6 col-sm-12 col-xs-6"></div>');
-	$('#field_1_4').wrap('<div class="form-group col-md-6 col-sm-12 col-xs-6"></div>');
+	$("[id='field_1_5']").wrap('<div class="form-group col-md-6 col-sm-12 col-xs-6"></div>');
+	$("[id='field_1_2']").wrap('<div class="form-group col-md-6 col-sm-12 col-xs-6"></div>');
+	$("[id='field_1_3']").wrap('<div class="form-group col-md-6 col-sm-12 col-xs-6"></div>');
+	$("[id='field_1_4']").wrap('<div class="form-group col-md-6 col-sm-12 col-xs-6"></div>');
 
-	$('#input_1_5').addClass('form-control');
-	$('#input_1_2').addClass('form-control');
-	$('#input_1_3').addClass('form-control').wrap('<p class="input-group">');
-	$('#input_1_3').addClass('form-control').css('margin-top','0px');
-	$('#input_1_3').addClass('form-control').css('width','100%').css('border-radius','0px');
-	$('#input_1_4').addClass('form-control');
-	$('#input_1_3').after('<span class="input-group-btn"><button type="button" class="btn btn-calendar" ng-click="setEventDate($event)"><i class="glyphicon glyphicon-calendar"></i></button></span>');
-	$('#gform_submit_button_1').addClass('btn btn-block btn-homepage');
+	$("[id='input_1_5']").addClass('form-control');
+	$("[id='input_1_2']").addClass('form-control');
+	$("[id='input_1_3']").addClass('form-control').wrap('<p class="input-group">');
+	$("[id='input_1_3']").addClass('form-control').css('margin-top','0px');
+	$("[id='input_1_3']").addClass('form-control').css('width','100%').css('border-radius','0px');
+	$("[id='input_1_4']").addClass('form-control');
+	$("[id='input_1_3']").after('<span class="input-group-btn"><button type="button" class="btn btn-calendar" ng-click="setEventDate($event)"><i class="glyphicon glyphicon-calendar"></i></button></span>');
+	$("[id='gform_submit_button_1']").addClass('btn btn-block btn-homepage');
 
   $('.dropdown-toggle').attr('role','button');
+  $('.contact-form').show();
 
 </script>

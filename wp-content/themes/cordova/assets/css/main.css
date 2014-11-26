@@ -6502,6 +6502,12 @@ p.input-group {
   line-height: .2;
   border-radius: 3px;
 }
+.contact-form-main {
+  margin-top: 65px;
+}
+.contact-form {
+  display: none;
+}
 .gallery-row {
   padding: 10px 0;
 }
@@ -6573,6 +6579,9 @@ h4,
 h5,
 h6 {
   font-family: 'Gibson-Light';
+}
+body {
+  padding-top: 70px;
 }
 .nav > li {
   position: relative;
