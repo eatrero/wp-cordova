@@ -3,12 +3,12 @@
     <?php dynamic_sidebar('sidebar-footer'); ?>
     <section>
     	<div class="row">
-	    	<div class="col-sm-6 col-md-4 col-xs-12">
+	    	<div class="col-sm-6 col-md-4 col-xs-12 hidden-xs hidden-sm">
 		    	<h2> My about footer, yo.	</h2>
 		    	<img class="img-center" src="http://placekitten.com/g/250/250" />
 	    	</div>
 
-	    	<div class="col-sm-6 col-md-4 col-xs-12">
+	    	<div class="col-sm-6 col-md-4 col-xs-12 hidden-xs hidden-sm">
 		    	<h2> Posts.	</h2>
 		    	<p> Brooklyn nulla ut Etsy, mollit eu Intelligentsia mumblecore street art actually hashtag hella dolor Godard irure. Single-origin coffee letterpress photo booth banjo selfies Tumblr, Tonx skateboard commodo. Fanny pack kitsch ea Thundercats. Roof party Austin esse, you probably haven't heard of them labore quinoa consequat. Do placeat et, deserunt next level hella post-ironic dolore meh ex qui sunt freegan +1 voluptate. Kogi normcore ullamco do art party synth, excepteur pork belly farm-to-table odio raw denim. Pug excepteur selvage actually, street art lomo nostrud.</p>
 	    	</div>
@@ -17,9 +17,11 @@
 		    	<h3> Contact.</h3>
 		    	<?php gravity_form(1, false, false, false, '', true); ?>
 	    	</div>
-
     	</div>
+
+
     </section>
+
     <div class="copyright-text">©2014 Nathan Cordova. Site Design by <a href="http://beastco.de">BEASTCODE.</a></p>
   </div>
 </footer>
@@ -27,11 +29,11 @@
 <script type="text/javascript">
     // When the document is ready
     $(document).ready(function () {
-        
+
         $('.event-datepicker').datepicker({
             format: "mm/dd/yyyy"
-        });  
-    
+        });
+
     });
 </script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.min.js"></script>
@@ -56,9 +58,9 @@ if(document.getElementById('googleMap')){
 		geocoder.geocode( { 'address': address}, function(results, status) {
 			if (status == google.maps.GeocoderStatus.OK) {
 	    		latitude = results[0].geometry.location.lat();
-				longitude = results[0].geometry.location.lng(); 
+				longitude = results[0].geometry.location.lng();
 				initGoogleMap();
-	    	} 
+	    	}
 		});
 	}
 
@@ -70,7 +72,7 @@ if(document.getElementById('googleMap')){
 		      ]
 		    }
 		];
-		
+
 		var options = {
 			mapTypeControlOptions: {
 				mapTypeIds: ['Styled']
@@ -81,7 +83,7 @@ if(document.getElementById('googleMap')){
 			navigationControl: false,
 			mapTypeControl: false,
 			zoomControl: true,
-			disableDefaultUI: true,	
+			disableDefaultUI: true,
 			mapTypeId: 'Styled'
 		};
 		var div = document.getElementById('googleMap');
@@ -94,7 +96,7 @@ if(document.getElementById('googleMap')){
 		});
 		var styledMapType = new google.maps.StyledMapType(styles, { name: 'Styled' });
 		map.mapTypes.set('Styled', styledMapType);
-		
+
 		var infowindow = new google.maps.InfoWindow({
 		      content: "<div class='iwContent'>"+address+"</div>"
 		});
@@ -104,10 +106,10 @@ if(document.getElementById('googleMap')){
 		google.maps.event.addListener(marker, 'mouseover', function() {
 		    infowindow.open(map,marker);
 		});
-			
-		
+
+
 		bounds = new google.maps.LatLngBounds(
-		  new google.maps.LatLng(-84.999999, -179.999999), 
+		  new google.maps.LatLng(-84.999999, -179.999999),
 		  new google.maps.LatLng(84.999999, 179.999999));
 
 		rect = new google.maps.Rectangle({
@@ -118,10 +120,10 @@ if(document.getElementById('googleMap')){
 		    map: map
 		});
 
-		var listener = google.maps.event.addListener(map, "idle", function() { 
+		var listener = google.maps.event.addListener(map, "idle", function() {
 			$('#map-banner').show();
 			$("#map-header").fitText(1.2, { minFontSize: '20px', maxFontSize: '400px'});
-		  google.maps.event.removeListener(listener); 
+		  google.maps.event.removeListener(listener);
 		});
 
 	}
