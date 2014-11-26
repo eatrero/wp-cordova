@@ -6610,7 +6610,7 @@ h6 {
   padding-top: 10px;
   padding-bottom: 10px;
   line-height: 20px;
-  font-family: "Gibson", "proxima-nova-sc-osf", Helvetica, Arial;
+  font-family: "Gibson-Light", "proxima-nova-sc-osf", Helvetica, Arial;
   letter-spacing: 0.1em;
   font-size: 1.3rem;
   position: relative !important;
@@ -6635,18 +6635,16 @@ h6 {
 .navbar-default .navbar-brand {
   color: white;
 }
-.navbar-default .navbar-brand:hover,
+/*.navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
   color: white;
-}
+}*/
 .navbar-default .navbar-nav > li > a {
   -webkit-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus {
+.navbar-default .navbar-nav > .open > a {
   color: white;
   background-color: rgba(0, 0, 0, 0);
 }
@@ -6659,10 +6657,11 @@ h6 {
   -o-transition: all 0.7s ease-in-out;
   transition: all 0.7s ease-in-out;
 }
+/*
 .navbar-default .navbar-nav > li > a:hover,
+*/
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: white;
   background-color: rgba(0, 0, 0, 0);
@@ -6686,6 +6685,7 @@ navbar-default .navbar-nav > .active > a:focus {
   -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
+/*
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
 .dropdown-menu > .active > a:focus {
@@ -6693,8 +6693,9 @@ navbar-default .navbar-nav > .active > a:focus {
   background-color: white;
 }
 ul.nav li.dropdown:hover > ul.dropdown-menu {
-  display: block;
+    display: block;
 }
+*/
 .sidebar {
   position: relative;
   min-height: 1px;
