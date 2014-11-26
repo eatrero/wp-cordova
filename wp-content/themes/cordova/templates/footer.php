@@ -150,4 +150,6 @@ if(document.getElementById('googleMap')){
 	$('#input_1_3').after('<span class="input-group-btn"><button type="button" class="btn btn-calendar" ng-click="setEventDate($event)"><i class="glyphicon glyphicon-calendar"></i></button></span>');
 	$('#gform_submit_button_1').addClass('btn btn-block btn-homepage');
 
+  $('.dropdown-toggle').attr('role','button');
+
 </script>
