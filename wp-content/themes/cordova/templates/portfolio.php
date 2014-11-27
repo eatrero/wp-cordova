@@ -7,7 +7,11 @@
       ?>
   <article class="col-sm-4 featured-work">
       <a href='<?php echo $feature['url']; ?>'>
-      <img class='img-responsive' src='<?php echo $feature['feat_image']; ?>' />
+			<figure class="col-sm-12 col-xs-12 lead-image-container">
+        <img class='img-responsive lead-dark' src='<?php echo $feature['feat_image']; ?>' />
+				  <figcaption><h3></h3>
+		    	</figcaption>
+      </figure>
       </a>
   </article>
       <?php endforeach; ?>
