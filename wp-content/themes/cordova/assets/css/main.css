@@ -6774,6 +6774,11 @@ footer {
 .testimonial-container {
   margin-bottom: 50px;
 }
+@media (max-width: 768px) {
+  .featured-work {
+    margin-bottom: 10px;
+  }
+}
 .nathan-cordova-span,
 .photographer-span {
   display: block;

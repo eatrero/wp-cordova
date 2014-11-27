@@ -27,9 +27,38 @@ function cordova_get_locations() {
     $url = get_permalink( $post->ID );
     $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 
-    array_push($locations, array('location' => $location, 'url' => $url, 'feat_image' => $feat_image));
+    if($location) {
+      array_push($locations, array('location' => $location, 'url' => $url, 'feat_image' => $feat_image));
+    }
   }
   wp_reset_postdata();
 
   return $locations;
+}
+
+function cordova_get_featured() {
+  $args = array( 'posts_per_page' => 60, 'offset'=> 0 );
+  $featured = array();
+
+  $myposts = get_posts( $args );
+  foreach ( $myposts as $post ) {
+    setup_postdata( $post );
+    $feature = get_post_meta( $post->ID, 'featured', true );
+
+    if($feature) {
+      $url = get_permalink( $post->ID );
+      $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+      array_push($featured, array('order' => $feature, 'url' => $url, 'feat_image' => $feat_image));
+    }
+
+  }
+  wp_reset_postdata();
+
+  ksort($featured);
+
+  usort($featured, function($a, $b) {
+      return $b['order'] - $a['order'];
+  });
+
+  return $featured;
 }
