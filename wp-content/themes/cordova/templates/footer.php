@@ -5,7 +5,7 @@
     	<div class="row">
 	    	<div class="col-sm-6 col-md-4 col-xs-12">
 		    	<h3 class="h3-span"> Instagram	</h3>
-		    	<div class="col-sm-10 col-sm-offset-1">
+		    	<div class="col-sm-10 col-md-10 col-lg-10 col-sm-offset-1">
   		    	<p class='result'></p>
 		    	</div>
 	    	</div>
@@ -220,7 +220,7 @@ hr.style-two {
     var recent_post_url = data.data[0].images.standard_resolution.url;
     console.log(data.data[0].location.name);
 //    console.log(data.data[0].images.thumbnail);
-    $(".result").html("<a href='http://instagram.com/nathancordovaartist' target='_blank'><figure class='lead-image-container2'> <img src='" + recent_post_url + "' class='img-responsive lead-dark'/><figcaption><h2 class='entry-title'>" + data.data[0].location.name + "</h2></figcaption></figure> </a>");
+    $(".result").html("<a href='http://instagram.com/nathancordovaartist' target='_blank'><figure class='lead-image-container2'> <img src='" + recent_post_url + "' class='img-responsive'/><figcaption><h2 class='entry-title'>" + data.data[0].location.name + "</h2></figcaption></figure> </a>");
   });
 
 </script>

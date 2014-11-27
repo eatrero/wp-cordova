@@ -6599,6 +6599,9 @@ body {
 a {
   color: #5e5e5e;
 }
+.result {
+  width: 100%;
+}
 .nav > li {
   position: relative;
   display: inline-block;
@@ -6869,9 +6872,11 @@ footer {
           transition: all 0.4s ease-in-out;
   text-align: center;
 }
-.lead-image-container,
-.lead-image-container2 {
+.lead-image-container {
   display: inline-block;
+  position: relative;
+}
+.lead-image-container2 {
   position: relative;
 }
 .lead-image-container:after,
