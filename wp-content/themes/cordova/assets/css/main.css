@@ -6581,7 +6581,7 @@ h6 {
   font-family: 'Gibson-Light';
 }
 body {
-  padding-top: 70px;
+  padding-top: 30px;
 }
 .nav > li {
   position: relative;
@@ -6719,7 +6719,6 @@ navbar-default .navbar-nav > .active > a:focus {
   }
 }
 footer {
-  margin-top: 50px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -6774,6 +6773,7 @@ footer {
 }
 .nathan-cordova-span,
 .photographer-span {
+  display: block;
   font-size: 1.5em;
   font-family: 'Gibson-Light';
   letter-spacing: 0.1em;
@@ -6781,11 +6781,10 @@ footer {
   -webkit-transition: all 0.4s ease-in-out;
        -o-transition: all 0.4s ease-in-out;
           transition: all 0.4s ease-in-out;
+  text-align: center;
 }
 .photographer-span {
-  display: inline-block;
   font-size: 1.0em;
-  padding-left: 10px;
 }
 .homepage-copy {
   margin-top: 10px;
@@ -6798,7 +6797,6 @@ footer {
   }
   .photographer-span {
     font-size: 1.5em;
-    padding-left: 35px;
     text-height: 2.0em;
   }
   .homepage-copy {

@@ -14,7 +14,7 @@
 	    	</div>
 
 	    	<div class="col-sm-6 col-md-4 col-xs-12">
-		    	<h3> Contact.</h3>
+		    	<h3> Contact Nathan.</h3>
 		    	<div class="contact-form">
   		    	<?php gravity_form(1, false, false, false, '', true); ?>
   		    </div>
@@ -26,6 +26,7 @@
 
     <div class="copyright-text">©2014 Nathan Cordova. Site Design by <a href="http://beastco.de">BEASTCODE.</a></p>
   </div>
+
 </footer>
 
 <script type="text/javascript">
@@ -46,91 +47,105 @@
 
 if(document.getElementById('googleMap')){
 
-	var geocoder = new google.maps.Geocoder();
-	var address = "San Diego, CA, 92111"; //Add your address here, all on one line.
-	addresses = ["San Diego, CA 92111",
-							 "Cancun, Mexico",
-							 "Sydney, Australia"];
-
-	var latitude;
-	var longitude;
+  var map;
 	var color = "#85cad1"; //Set your tint color. Needs to be a hex value.
+  var styles = [
+      {
+        stylers: [
+          { saturation: -100 }
+        ]
+      }
+  ];
+  var styledMapType = new google.maps.StyledMapType(styles, { name: 'Styled' });
 
-	function getGeocode() {
-		geocoder.geocode( { 'address': address}, function(results, status) {
-			if (status == google.maps.GeocoderStatus.OK) {
-	    		latitude = results[0].geometry.location.lat();
-				longitude = results[0].geometry.location.lng();
-				initGoogleMap();
-	    	}
-		});
-	}
-
-	function initGoogleMap() {
-		var styles = [
-		    {
-		      stylers: [
-		        { saturation: -100 }
-		      ]
-		    }
-		];
-
-		var options = {
+  var myOptions = {
 			mapTypeControlOptions: {
 				mapTypeIds: ['Styled']
 			},
-			center: new google.maps.LatLng(latitude, longitude),
-			zoom: 2,
 			scrollwheel: false,
 			navigationControl: false,
 			mapTypeControl: false,
+      zoom: 2,
+      center: new google.maps.LatLng(0, 0),
 			zoomControl: true,
 			disableDefaultUI: true,
 			mapTypeId: 'Styled'
-		};
-		var div = document.getElementById('googleMap');
-		var map = new google.maps.Map(div, options);
-		marker = new google.maps.Marker({
-		    map:map,
-		    draggable:false,
-		    animation: google.maps.Animation.DROP,
-		    position: new google.maps.LatLng(latitude,longitude)
-		});
-		var styledMapType = new google.maps.StyledMapType(styles, { name: 'Styled' });
-		map.mapTypes.set('Styled', styledMapType);
+  };
+  var addresses;
 
-		var infowindow = new google.maps.InfoWindow({
-		      content: "<div class='iwContent'>"+address+"</div>"
-		});
-		google.maps.event.addListener(marker, 'click', function() {
-		    window.location = "http://local.wordpress.dev/blog";
-		});
-		google.maps.event.addListener(marker, 'mouseover', function() {
-		    infowindow.open(map,marker);
-		});
+  var div = document.getElementById('googleMap');
 
-
-		bounds = new google.maps.LatLngBounds(
+  map = new google.maps.Map($(div)[0], myOptions);
+  map.mapTypes.set('Styled', styledMapType);
+	var	bounds = new google.maps.LatLngBounds(
 		  new google.maps.LatLng(-84.999999, -179.999999),
 		  new google.maps.LatLng(84.999999, 179.999999));
 
-		rect = new google.maps.Rectangle({
-		    bounds: bounds,
-		    fillColor: color,
-		    fillOpacity: 0.2,
-		    strokeWeight: 0,
-		    map: map
-		});
+  rect = new google.maps.Rectangle({
+      bounds: bounds,
+      fillColor: color,
+      fillOpacity: 0.2,
+      strokeWeight: 0,
+      map: map
+  });
 
-		var listener = google.maps.event.addListener(map, "idle", function() {
-			$('#map-banner').show();
-			$("#map-header").fitText(1.2, { minFontSize: '20px', maxFontSize: '400px'});
-		  google.maps.event.removeListener(listener);
-		});
+  addresses = [
+    <?php
+    $locations = cordova_get_locations();
+      foreach ( $locations as $location ) :
+    ?>
+      "<?php echo $location['location']; ?>",
+    <?php endforeach;
+    ?>
+  ];
 
-	}
-	google.maps.event.addDomListener(window, 'load', getGeocode);
-//]]>
+	var urls = [
+    <?php
+      foreach ( $locations as $location ) :
+    ?>
+      "<?php echo $location['url']; ?>",
+    <?php endforeach;
+    ?>
+  ];
+
+  var	feat_images  = [
+      <?php
+        foreach ( $locations as $location ) :
+      ?>
+        "<?php echo $location['feat_image']; ?>",
+      <?php endforeach;
+      ?>
+    ];
+
+
+  console.log(urls);
+
+  for (var i = 0; i < addresses.length; i++) {
+
+    function inline(i) {
+      $.getJSON('http://maps.googleapis.com/maps/api/geocode/json?address='+addresses[i]+'&sensor=false', null, function (data) {
+        var p = data.results[0].geometry.location
+        var latlng = new google.maps.LatLng(p.lat, p.lng);
+        var marker = new google.maps.Marker({
+            position: latlng,
+            map: map
+        });
+        google.maps.event.addListener(marker, 'click', function() {
+            window.location = urls[i];
+        });
+
+        var infowindow = new google.maps.InfoWindow({
+//              content: "<div class='iwContent'>"+addresses[i]+"</div>"
+                content: "<a href='"+ urls[i] +  "'><img src=" + feat_images[i]  + " width='100' /></a>"
+        });
+        google.maps.event.addListener(marker, 'mouseover', function() {
+            infowindow.open(map,marker);
+        });
+
+      });
+    }
+    inline(i);
+  }
 }
 </script>
 <script>
