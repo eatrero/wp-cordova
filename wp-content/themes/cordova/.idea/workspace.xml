@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7ca546b-5392-4305-8d44-978e233de1c4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/homepage.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template-about.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/screenshot.png" afterPath="$PROJECT_DIR$/screenshot.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/less/layouts/_footer.less" afterPath="$PROJECT_DIR$/assets/less/layouts/_footer.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/less/components/_forms.less" afterPath="$PROJECT_DIR$/assets/less/components/_forms.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/less/layouts/_general.less" afterPath="$PROJECT_DIR$/assets/less/layouts/_general.less" />
@@ -44,58 +46,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="_general.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/less/layouts/_general.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.2040815" vertical-offset="0" max-vertical-offset="585">
-              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            <state vertical-scroll-proportion="-7.612245" vertical-offset="122" max-vertical-offset="600">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_home.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_home.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/less/layouts/pages/_home.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7803347" vertical-offset="542" max-vertical-offset="1095">
-              <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+            <state vertical-scroll-proportion="-2.1020408" vertical-offset="497" max-vertical-offset="975">
+              <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content-single.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/content-single.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.076923" vertical-offset="1800" max-vertical-offset="2685">
-              <caret line="134" column="11" selection-start-line="134" selection-start-column="11" selection-end-line="134" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="google-map.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/google-map.php">
+      <file leaf-file-name="main.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/main.min.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -104,41 +76,95 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="98235" max-vertical-offset="104685">
+              <caret line="6558" column="1" selection-start-line="6558" selection-start-column="1" selection-end-line="6558" selection-end-column="1" />
+              <folding>
+                <marker date="1417060716000" expanded="true" signature="146703:146858" placeholder="{...}" />
+                <marker date="1417060716000" expanded="true" signature="146894:146922" placeholder="{...}" />
+                <marker date="1417060716000" expanded="true" signature="146971:147176" placeholder="{...}" />
+                <marker date="1417060716000" expanded="true" signature="147230:147241" placeholder="{...}" />
+                <marker date="1417060716000" expanded="true" signature="147269:147298" placeholder="{...}" />
+                <marker date="1417060716000" expanded="true" signature="147336:147357" placeholder="{...}" />
+                <marker date="1417060716000" expanded="true" signature="147405:147532" placeholder="{...}" />
+                <marker date="1417060716000" expanded="true" signature="147566:147725" placeholder="{...}" />
+                <marker date="1417060716000" expanded="true" signature="147756:147789" placeholder="{...}" />
+                <marker date="1417060716000" expanded="true" signature="147809:147834" placeholder="{...}" />
+                <marker date="1417060716000" expanded="true" signature="147865:147868" placeholder="{...}" />
+                <marker date="1417060716000" expanded="true" signature="147912:147944" placeholder="{...}" />
+                <marker date="1417060716000" expanded="true" signature="148005:148042" placeholder="{...}" />
+                <marker date="1417060716000" expanded="true" signature="148070:148087" placeholder="{...}" />
+                <marker date="1417060716000" expanded="true" signature="148208:148504" placeholder="{...}" />
+                <marker date="1417060716000" expanded="true" signature="148598:148741" placeholder="{...}" />
+                <marker date="1417060716000" expanded="true" signature="148840:148977" placeholder="{...}" />
+                <marker date="1417060716000" expanded="true" signature="149063:149099" placeholder="{...}" />
+                <marker date="1417060716000" expanded="true" signature="149129:149277" placeholder="{...}" />
+                <marker date="1417060716000" expanded="true" signature="149311:149363" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homepage.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/homepage.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="11.307693" vertical-offset="669" max-vertical-offset="2820">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/less/main.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="330">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scripts.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/scripts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="35415">
+              <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <marker date="1417060650000" expanded="true" signature="67411:67486" placeholder="//..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="_footer.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/less/layouts/_footer.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.367347" vertical-offset="0" max-vertical-offset="1080">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state vertical-scroll-proportion="4.9387755" vertical-offset="602" max-vertical-offset="1080">
+              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template-homepage.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template-homepage.php">
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-              <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="utils.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/utils.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
-              <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_forms.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/less/components/_forms.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.142858" vertical-offset="137" max-vertical-offset="690">
-              <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.21206225" vertical-offset="2516" max-vertical-offset="3090">
+              <caret line="175" column="13" selection-start-line="175" selection-start-column="13" selection-end-line="175" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -152,7 +178,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/assets/css/main.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/assets/vendor/bootstrap/package.json" />
         <option value="$PROJECT_DIR$/assets/vendor/bootstrap/js/dropdown.js" />
@@ -165,10 +190,15 @@
         <option value="$PROJECT_DIR$/templates/content-single.php" />
         <option value="$PROJECT_DIR$/lib/utils.php" />
         <option value="$PROJECT_DIR$/assets/less/layouts/_footer.less" />
-        <option value="$PROJECT_DIR$/templates/footer.php" />
         <option value="$PROJECT_DIR$/templates/google-map.php" />
-        <option value="$PROJECT_DIR$/assets/less/layouts/_general.less" />
+        <option value="$PROJECT_DIR$/assets/css/main.css" />
+        <option value="$PROJECT_DIR$/assets/js/scripts.js" />
         <option value="$PROJECT_DIR$/assets/less/layouts/pages/_home.less" />
+        <option value="$PROJECT_DIR$/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/assets/css/homepage.css" />
+        <option value="$PROJECT_DIR$/assets/less/main.less" />
+        <option value="$PROJECT_DIR$/assets/less/layouts/_general.less" />
+        <option value="$PROJECT_DIR$/templates/footer.php" />
       </list>
     </option>
   </component>
@@ -326,15 +356,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -352,11 +374,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -370,6 +388,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="SearchEverywhereHistoryKey" value="my about footer&#9;null&#9;null" />
     <property name="editorconfig.notification" value="Applied .editorconfig settings" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -478,22 +497,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1943" max-vertical-offset="2775">
-          <caret line="148" column="10" selection-start-line="148" selection-start-column="10" selection-end-line="148" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39344263" vertical-offset="96138" max-vertical-offset="101940">
-          <caret line="6422" column="13" selection-start-line="6422" selection-start-column="13" selection-end-line="6422" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2689243" vertical-offset="0" max-vertical-offset="502">
@@ -539,7 +542,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="317" max-vertical-offset="2505">
           <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -616,14 +619,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.076923" vertical-offset="1800" max-vertical-offset="2685">
-          <caret line="134" column="11" selection-start-line="134" selection-start-column="11" selection-end-line="134" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/content-single.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
@@ -648,26 +643,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/less/layouts/_footer.less">
+    <entry file="file://$PROJECT_DIR$/assets/css/main.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.367347" vertical-offset="0" max-vertical-offset="1080">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="514">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/less/layouts/_general.less">
+    <entry file="file://$PROJECT_DIR$/assets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.2040815" vertical-offset="0" max-vertical-offset="585">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="98235" max-vertical-offset="104685">
+          <caret line="6558" column="1" selection-start-line="6558" selection-start-column="1" selection-end-line="6558" selection-end-column="1" />
+          <folding>
+            <marker date="1417060716000" expanded="true" signature="146703:146858" placeholder="{...}" />
+            <marker date="1417060716000" expanded="true" signature="146894:146922" placeholder="{...}" />
+            <marker date="1417060716000" expanded="true" signature="146971:147176" placeholder="{...}" />
+            <marker date="1417060716000" expanded="true" signature="147230:147241" placeholder="{...}" />
+            <marker date="1417060716000" expanded="true" signature="147269:147298" placeholder="{...}" />
+            <marker date="1417060716000" expanded="true" signature="147336:147357" placeholder="{...}" />
+            <marker date="1417060716000" expanded="true" signature="147405:147532" placeholder="{...}" />
+            <marker date="1417060716000" expanded="true" signature="147566:147725" placeholder="{...}" />
+            <marker date="1417060716000" expanded="true" signature="147756:147789" placeholder="{...}" />
+            <marker date="1417060716000" expanded="true" signature="147809:147834" placeholder="{...}" />
+            <marker date="1417060716000" expanded="true" signature="147865:147868" placeholder="{...}" />
+            <marker date="1417060716000" expanded="true" signature="147912:147944" placeholder="{...}" />
+            <marker date="1417060716000" expanded="true" signature="148005:148042" placeholder="{...}" />
+            <marker date="1417060716000" expanded="true" signature="148070:148087" placeholder="{...}" />
+            <marker date="1417060716000" expanded="true" signature="148208:148504" placeholder="{...}" />
+            <marker date="1417060716000" expanded="true" signature="148598:148741" placeholder="{...}" />
+            <marker date="1417060716000" expanded="true" signature="148840:148977" placeholder="{...}" />
+            <marker date="1417060716000" expanded="true" signature="149063:149099" placeholder="{...}" />
+            <marker date="1417060716000" expanded="true" signature="149129:149277" placeholder="{...}" />
+            <marker date="1417060716000" expanded="true" signature="149311:149363" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="35415">
+          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1417060650000" expanded="true" signature="67411:67486" placeholder="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="11.307693" vertical-offset="669" max-vertical-offset="2820">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/homepage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/less/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="330">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/less/layouts/pages/_home.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7803347" vertical-offset="542" max-vertical-offset="1095">
-          <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+        <state vertical-scroll-proportion="-2.1020408" vertical-offset="497" max-vertical-offset="975">
+          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/less/layouts/_general.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.612245" vertical-offset="122" max-vertical-offset="600">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/less/layouts/_footer.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.9387755" vertical-offset="602" max-vertical-offset="1080">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21206225" vertical-offset="2516" max-vertical-offset="3090">
+          <caret line="175" column="13" selection-start-line="175" selection-start-column="13" selection-end-line="175" selection-end-column="13" />
           <folding />
         </state>
       </provider>

@@ -22,6 +22,9 @@ module.exports = function(grunt) {
     'assets/js/_*.js'
   ];
 
+  var cssFileList = [
+
+    ];
   grunt.initConfig({
     jshint: {
       options: {

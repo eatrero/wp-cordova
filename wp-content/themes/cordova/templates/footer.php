@@ -171,3 +171,30 @@ if(document.getElementById('googleMap')){
   $('.contact-form').show();
 
 </script>
+<style>
+hr.style-two {
+  clear: both;
+  float: none;
+  width: 100%;
+  height: 1px;
+  margin: 1.4em 0;
+  border: none;
+  background: #333;
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    right bottom,
+    color-stop(0, rgb(255,255,255)),
+    color-stop(0.1, rgb(180,180,180)),
+    color-stop(0.9, rgb(180,180,180)),
+    color-stop(1, rgb(255,255,255))
+  );
+  background-image: -moz-linear-gradient(
+    left center,
+    rgb(255,255,255) 0%,
+    rgb(221,221,221) 10%,
+    rgb(221,221,221) 90%,
+    rgb(255,255,255) 100%
+  );
+}
+</style>
