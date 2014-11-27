@@ -4,8 +4,8 @@
     <section>
     	<div class="row">
 	    	<div class="col-sm-6 col-md-4 col-xs-12 hidden-xs hidden-sm">
-		    	<h3> My about footer, yo.	</h3>
-		    	<img class="img-responsive" src="//placekitten.com/g/300/200" />
+		    	<h3> Instagram.	</h3>
+		    	<p class='result'></p>
 	    	</div>
 
 	    	<div class="col-sm-6 col-md-4 col-xs-12 hidden-xs hidden-sm">
@@ -208,3 +208,17 @@ hr.style-two {
   );
 }
 </style>
+<script>
+
+  $.ajax({
+  type: "GET",
+  dataType: "jsonp",
+  url: "https://api.instagram.com/v1/users/1532500935/media/recent/?client_id=bf9bcae024a64386a723ee9187139ec9"
+   }). done(function( data ) {
+    var recent_post_url = data.data[0].images.low_resolution.url;
+    console.log(recent_post_url);
+//    console.log(data.data[0].images.thumbnail);
+    $(".result").html("<img src='" + recent_post_url + "' class='img-responsive'/>");
+  });
+
+</script>
