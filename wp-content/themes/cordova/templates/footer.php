@@ -4,24 +4,24 @@
     <section>
     	<div class="row">
 	    	<div class="col-sm-6 col-md-4 col-xs-12 hidden-xs hidden-sm">
-		    	<h2> My about footer, yo.	</h2>
-		    	<img class="img-center" src="//placekitten.com/g/250/250" />
+		    	<h3> My about footer, yo.	</h3>
+		    	<img class="img-responsive" src="//placekitten.com/g/300/200" />
 	    	</div>
 
 	    	<div class="col-sm-6 col-md-4 col-xs-12 hidden-xs hidden-sm">
-		    	<h2> Posts.	</h2>
-		    	<p> Brooklyn nulla ut Etsy, mollit eu Intelligentsia mumblecore street art actually hashtag hella dolor Godard irure. Single-origin coffee letterpress photo booth banjo selfies Tumblr, Tonx skateboard commodo. Fanny pack kitsch ea Thundercats. Roof party Austin esse, you probably haven't heard of them labore quinoa consequat. Do placeat et, deserunt next level hella post-ironic dolore meh ex qui sunt freegan +1 voluptate. Kogi normcore ullamco do art party synth, excepteur pork belly farm-to-table odio raw denim. Pug excepteur selvage actually, street art lomo nostrud.</p>
+	    	  <article class="col-sm-11">
+  		    	<h3> Recent Posts	</h3>
+	  	    	<p>Brooklyn nulla ut Etsy, mollit eu Intelligentsia mumblecore street art actually hashtag hella dolor Godard irure. Single-origin coffee letterpress photo booth banjo selfies Tumblr, Tonx skateboard commodo. Fanny pack kitsch ea Thundercats. Roof party Austin esse, you probably haven't heard of them labore quinoa consequat. Do placeat et, deserunt next level hella post-ironic dolore meh ex qui sunt freegan +1 voluptate. Kogi normcore ullamco do art party synth, excepteur pork belly farm-to-table odio raw denim. Pug excepteur selvage actually, street art lomo nostrud.</p>
+	  	    </article>
 	    	</div>
 
 	    	<div class="col-sm-6 col-md-4 col-xs-12">
-		    	<h3> Contact Nathan.</h3>
+		    	<h3> Contact Nathan</h3>
 		    	<div class="contact-form">
   		    	<?php gravity_form(1, false, false, false, '', true); ?>
   		    </div>
 	    	</div>
     	</div>
-
-
     </section>
 
     <div class="copyright-text">©2014 Nathan Cordova. Site Design by <a href="http://beastco.de">BEASTCODE.</a></p>

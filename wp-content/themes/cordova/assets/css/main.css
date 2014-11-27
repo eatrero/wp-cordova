@@ -6771,6 +6771,9 @@ footer {
   z-index: 1000;
   color: white;
 }
+.testimonial-container {
+  margin-bottom: 50px;
+}
 .nathan-cordova-span,
 .photographer-span {
   display: block;
