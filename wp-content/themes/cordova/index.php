@@ -24,11 +24,10 @@
         <?php get_template_part('templates/content', get_post_format()); ?>
       </div>
 
-    <?php } 
+    <?php }
     $i++; ?>
 
   <?php endwhile; ?>
-</div>
 
 <?php if ($wp_query->max_num_pages > 1) : ?>
   <nav class="post-nav">
@@ -38,3 +37,4 @@
     </ul>
   </nav>
 <?php endif; ?>
+</div>

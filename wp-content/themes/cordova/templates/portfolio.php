@@ -1,6 +1,6 @@
 <section class='container testimonial-container'>
   <hr class='style-two'>
-  <h2> Featured Work </h2>
+  <h2 class='h2-span'> Featured Work </h2>
 
  <?php $featured = cordova_get_featured();
         foreach ( $featured as $feature ) :

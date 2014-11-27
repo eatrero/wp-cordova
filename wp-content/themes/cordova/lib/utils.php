@@ -62,3 +62,24 @@ function cordova_get_featured() {
 
   return $featured;
 }
+
+function cordova_get_recent_posts() {
+  $args = array( 'posts_per_page' => 5, 'offset'=> 0 );
+  $recent = array();
+
+  $myposts = get_posts( $args );
+
+  foreach ( $myposts as $post ) {
+    setup_postdata( $post );
+
+    $url = get_permalink( $post->ID );
+    $title = get_the_title( $post->ID );
+
+    $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+    array_push($recent, array('url' => $url, 'feat_image' => $feat_image, 'title' => $title));
+  }
+
+  wp_reset_postdata();
+
+  return $recent;
+}

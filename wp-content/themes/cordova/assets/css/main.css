@@ -6583,6 +6583,18 @@ h6 {
 body {
   padding-top: 70px;
 }
+.pager li > a,
+.pager li > span {
+  border-width: 0px;
+  border-radius: 0px;
+}
+.post-ul {
+  padding-left: 0px;
+}
+.post-li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
 .nav > li {
   position: relative;
   display: inline-block;
@@ -6779,6 +6791,11 @@ footer {
 @media (max-width: 768px) {
   .featured-work {
     margin-bottom: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .featured-work {
+    margin-bottom: 15px;
   }
 }
 .nathan-cordova-span,
@@ -6983,5 +7000,8 @@ figure.lead-image-container h2 {
   figure {
     margin-bottom: 10px;
   }
+}
+.post-nav {
+  margin-bottom: 30px;
 }
 /*# sourceMappingURL=main.css.map */

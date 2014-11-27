@@ -11,7 +11,15 @@
 	    	<div class="col-sm-6 col-md-4 col-xs-12 hidden-xs hidden-sm">
 	    	  <article class="col-sm-11">
   		    	<h3> Recent Posts	</h3>
-	  	    	<p>Brooklyn nulla ut Etsy, mollit eu Intelligentsia mumblecore street art actually hashtag hella dolor Godard irure. Single-origin coffee letterpress photo booth banjo selfies Tumblr, Tonx skateboard commodo. Fanny pack kitsch ea Thundercats. Roof party Austin esse, you probably haven't heard of them labore quinoa consequat. Do placeat et, deserunt next level hella post-ironic dolore meh ex qui sunt freegan +1 voluptate. Kogi normcore ullamco do art party synth, excepteur pork belly farm-to-table odio raw denim. Pug excepteur selvage actually, street art lomo nostrud.</p>
+  		    	<ul class="post-ul">
+  		    	<?php $recent_posts = cordova_get_recent_posts(); ?>
+            <?php
+              foreach ( $recent_posts as $post ) :
+            ?>
+              <li class="post-li"><a href="<?php echo $post['url']; ?>"><?php echo $post['title']; ?></a></li>
+            <?php endforeach;
+            ?>
+            </ul>
 	  	    </article>
 	    	</div>
 
