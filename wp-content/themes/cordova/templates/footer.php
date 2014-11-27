@@ -33,13 +33,15 @@
     // When the document is ready
     $(document).ready(function () {
 
-        $('.event-datepicker').datepicker({
+/*        $('.event-datepicker').datepicker({
             format: "mm/dd/yyyy"
         });
+*/
+        $( ".event-datepicker" ).datepicker();
 
     });
 </script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.min.js"></script>
+<script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/FitText.js/1.1/jquery.fittext.min.js"></script>
 <script type="text/javascript" src="//maps.google.com/maps/api/js?sensor=false"></script>
 <script type="text/javascript">
