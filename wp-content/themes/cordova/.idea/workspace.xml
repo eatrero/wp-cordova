@@ -52,11 +52,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_posts.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_posts.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/less/layouts/_posts.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25311205" vertical-offset="2398" max-vertical-offset="3195">
-              <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
+            <state vertical-scroll-proportion="-5.244898" vertical-offset="2398" max-vertical-offset="3195">
+              <caret line="177" column="20" selection-start-line="177" selection-start-column="20" selection-end-line="177" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_home.less" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/less/layouts/pages/_home.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.533195" vertical-offset="658" max-vertical-offset="1140">
+              <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -75,8 +85,8 @@
       <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.692307" vertical-offset="3916" max-vertical-offset="4408">
-              <caret line="218" column="30" selection-start-line="218" selection-start-column="30" selection-end-line="218" selection-end-column="30" />
+            <state vertical-scroll-proportion="-13.153846" vertical-offset="76" max-vertical-offset="4408">
+              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -112,21 +122,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/base.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="58" max-vertical-offset="585">
-              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="_general.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/less/layouts/_general.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.612245" vertical-offset="163" max-vertical-offset="795">
-              <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="8" />
+            <state vertical-scroll-proportion="-11.020409" vertical-offset="0" max-vertical-offset="870">
+              <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -173,7 +173,6 @@
         <option value="$PROJECT_DIR$/templates/google-map.php" />
         <option value="$PROJECT_DIR$/assets/css/main.css" />
         <option value="$PROJECT_DIR$/assets/js/scripts.js" />
-        <option value="$PROJECT_DIR$/assets/less/layouts/pages/_home.less" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/assets/css/homepage.css" />
         <option value="$PROJECT_DIR$/assets/less/main.less" />
@@ -184,10 +183,11 @@
         <option value="$PROJECT_DIR$/templates/portfolio.php" />
         <option value="$PROJECT_DIR$/assets/less/layouts/_pages.less" />
         <option value="$PROJECT_DIR$/lib/utils.php" />
-        <option value="$PROJECT_DIR$/assets/less/layouts/_general.less" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/templates/footer.php" />
         <option value="$PROJECT_DIR$/assets/less/layouts/_posts.less" />
+        <option value="$PROJECT_DIR$/templates/footer.php" />
+        <option value="$PROJECT_DIR$/assets/less/layouts/_general.less" />
+        <option value="$PROJECT_DIR$/assets/less/layouts/pages/_home.less" />
       </list>
     </option>
   </component>
@@ -306,6 +306,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cordova" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cordova" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="less" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cordova" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cordova" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="less" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -570,35 +610,27 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="98235" max-vertical-offset="104685">
           <caret line="6558" column="1" selection-start-line="6558" selection-start-column="1" selection-end-line="6558" selection-end-column="1" />
           <folding>
-            <marker date="1417119886000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417119886000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417119886000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417119886000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417119886000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417119886000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417119886000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417119886000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417119886000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417119886000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417119886000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417119886000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417119886000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417119886000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417119886000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417119886000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417119886000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417119886000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417119886000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417119886000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1417120478000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1417120478000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1417120478000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1417120478000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1417120478000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1417120478000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1417120478000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1417120478000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1417120478000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1417120478000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1417120478000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1417120478000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1417120478000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1417120478000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1417120478000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1417120478000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1417120478000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1417120478000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1417120478000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1417120478000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/less/layouts/pages/_home.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.1020408" vertical-offset="497" max-vertical-offset="975">
-          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -732,14 +764,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/less/layouts/_general.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.612245" vertical-offset="163" max-vertical-offset="795">
-          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="735">
@@ -756,18 +780,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/footer.php">
+    <entry file="file://$PROJECT_DIR$/assets/less/layouts/_posts.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.692307" vertical-offset="3916" max-vertical-offset="4408">
-          <caret line="218" column="30" selection-start-line="218" selection-start-column="30" selection-end-line="218" selection-end-column="30" />
+        <state vertical-scroll-proportion="-5.244898" vertical-offset="2398" max-vertical-offset="3195">
+          <caret line="177" column="20" selection-start-line="177" selection-start-column="20" selection-end-line="177" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/less/layouts/_posts.less">
+    <entry file="file://$PROJECT_DIR$/templates/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25311205" vertical-offset="2398" max-vertical-offset="3195">
-          <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
+        <state vertical-scroll-proportion="-13.153846" vertical-offset="76" max-vertical-offset="4408">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/less/layouts/_general.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.020409" vertical-offset="0" max-vertical-offset="870">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/less/layouts/pages/_home.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.533195" vertical-offset="658" max-vertical-offset="1140">
+          <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
           <folding />
         </state>
       </provider>

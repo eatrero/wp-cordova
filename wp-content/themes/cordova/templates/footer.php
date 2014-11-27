@@ -4,7 +4,7 @@
     <section>
     	<div class="row">
 	    	<div class="col-sm-6 col-md-4 col-xs-12">
-		    	<h3> Instagram.	</h3>
+		    	<h3 class="h3-span"> Instagram	</h3>
 		    	<div class="col-sm-10 col-sm-offset-1">
   		    	<p class='result'></p>
 		    	</div>
@@ -12,7 +12,7 @@
 
 	    	<div class="col-sm-6 col-md-4 col-xs-12 hidden-xs hidden-sm">
 	    	  <article class="col-sm-11">
-  		    	<h3> Recent Posts	</h3>
+  		    	<h3 class="h3-span"> Recent Posts	</h3>
   		    	<ul class="post-ul">
   		    	<?php $recent_posts = cordova_get_recent_posts(); ?>
             <?php
@@ -26,7 +26,7 @@
 	    	</div>
 
 	    	<div class="col-sm-6 col-md-4 col-xs-12">
-		    	<h3> Contact Nathan</h3>
+		    	<h3 class="h3-span"> Contact Nathan</h3>
 		    	<div class="contact-form">
   		    	<?php gravity_form(1, false, false, false, '', true); ?>
   		    </div>

@@ -6594,6 +6594,10 @@ body {
 .post-li {
   list-style-type: none;
   margin-bottom: 10px;
+  text-align: center;
+}
+a {
+  color: #5e5e5e;
 }
 .nav > li {
   position: relative;
@@ -6845,6 +6849,18 @@ footer {
 .h2-span {
   display: block;
   font-size: 2.0em;
+  font-family: 'Gibson-Light';
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  -webkit-transition: all 0.4s ease-in-out;
+       -o-transition: all 0.4s ease-in-out;
+          transition: all 0.4s ease-in-out;
+  text-align: center;
+}
+.h3-span {
+  margin-bottom: 1.5em;
+  display: block;
+  font-size: 1.6em;
   font-family: 'Gibson-Light';
   letter-spacing: 0.1em;
   text-transform: uppercase;
