@@ -5,7 +5,7 @@
     	<div class="row">
 	    	<div class="col-sm-6 col-md-4 col-xs-12 hidden-xs hidden-sm">
 		    	<h2> My about footer, yo.	</h2>
-		    	<img class="img-center" src="http://placekitten.com/g/250/250" />
+		    	<img class="img-center" src="//placekitten.com/g/250/250" />
 	    	</div>
 
 	    	<div class="col-sm-6 col-md-4 col-xs-12 hidden-xs hidden-sm">
@@ -41,7 +41,7 @@
 </script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/FitText.js/1.1/jquery.fittext.min.js"></script>
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="//maps.google.com/maps/api/js?sensor=false"></script>
 <script type="text/javascript">
 //<![CDATA[
 
@@ -123,7 +123,7 @@ if(document.getElementById('googleMap')){
   for (var i = 0; i < addresses.length; i++) {
 
     function inline(i) {
-      $.getJSON('http://maps.googleapis.com/maps/api/geocode/json?address='+addresses[i]+'&sensor=false', null, function (data) {
+      $.getJSON('//maps.googleapis.com/maps/api/geocode/json?address='+addresses[i]+'&sensor=false', null, function (data) {
         var p = data.results[0].geometry.location
         var latlng = new google.maps.LatLng(p.lat, p.lng);
         var marker = new google.maps.Marker({
