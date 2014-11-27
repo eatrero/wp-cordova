@@ -52,11 +52,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_posts.less" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_posts.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/less/layouts/_posts.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.306123" vertical-offset="2218" max-vertical-offset="2715">
-              <caret line="175" column="0" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.25311205" vertical-offset="2398" max-vertical-offset="3195">
+              <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -72,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19308943" vertical-offset="0" max-vertical-offset="4370">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="8" selection-end-column="14" />
+            <state vertical-scroll-proportion="-8.692307" vertical-offset="3916" max-vertical-offset="4408">
+              <caret line="218" column="30" selection-start-line="218" selection-start-column="30" selection-end-line="218" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -146,7 +146,7 @@
         <entry file="file://$PROJECT_DIR$/templates/portfolio.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -182,12 +182,12 @@
         <option value="$PROJECT_DIR$/assets/less/layouts/_footer.less" />
         <option value="$PROJECT_DIR$/templates/head.php" />
         <option value="$PROJECT_DIR$/templates/portfolio.php" />
-        <option value="$PROJECT_DIR$/assets/less/layouts/_posts.less" />
         <option value="$PROJECT_DIR$/assets/less/layouts/_pages.less" />
         <option value="$PROJECT_DIR$/lib/utils.php" />
         <option value="$PROJECT_DIR$/assets/less/layouts/_general.less" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/templates/footer.php" />
+        <option value="$PROJECT_DIR$/assets/less/layouts/_posts.less" />
       </list>
     </option>
   </component>
@@ -306,142 +306,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cordova" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cordova" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cordova" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cordova" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cordova" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cordova" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cordova" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cordova" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cordova" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cordova" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cordova" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cordova" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -706,26 +570,26 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="98235" max-vertical-offset="104685">
           <caret line="6558" column="1" selection-start-line="6558" selection-start-column="1" selection-end-line="6558" selection-end-column="1" />
           <folding>
-            <marker date="1417113993000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417113993000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417113993000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417113993000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417113993000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417113993000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417113993000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417113993000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417113993000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417113993000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417113993000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417113993000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417113993000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417113993000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417113993000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417113993000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417113993000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417113993000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417113993000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417113993000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1417119886000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1417119886000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1417119886000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1417119886000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1417119886000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1417119886000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1417119886000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1417119886000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1417119886000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1417119886000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1417119886000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1417119886000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1417119886000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1417119886000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1417119886000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1417119886000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1417119886000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1417119886000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1417119886000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1417119886000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -852,22 +716,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/portfolio.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/less/layouts/_posts.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.306123" vertical-offset="2218" max-vertical-offset="2715">
-          <caret line="175" column="0" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/less/layouts/_pages.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.8367347" vertical-offset="0" max-vertical-offset="315">
@@ -900,10 +748,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/portfolio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19308943" vertical-offset="0" max-vertical-offset="4370">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="8" selection-end-column="14" />
+        <state vertical-scroll-proportion="-8.692307" vertical-offset="3916" max-vertical-offset="4408">
+          <caret line="218" column="30" selection-start-line="218" selection-start-column="30" selection-end-line="218" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/less/layouts/_posts.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25311205" vertical-offset="2398" max-vertical-offset="3195">
+          <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
           <folding />
         </state>
       </provider>

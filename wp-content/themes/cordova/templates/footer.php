@@ -3,9 +3,11 @@
     <?php dynamic_sidebar('sidebar-footer'); ?>
     <section>
     	<div class="row">
-	    	<div class="col-sm-6 col-md-4 col-xs-12 hidden-xs hidden-sm">
+	    	<div class="col-sm-6 col-md-4 col-xs-12">
 		    	<h3> Instagram.	</h3>
-		    	<p class='result'></p>
+		    	<div class="col-sm-10 col-sm-offset-1">
+  		    	<p class='result'></p>
+		    	</div>
 	    	</div>
 
 	    	<div class="col-sm-6 col-md-4 col-xs-12 hidden-xs hidden-sm">
@@ -215,10 +217,10 @@ hr.style-two {
   dataType: "jsonp",
   url: "https://api.instagram.com/v1/users/1532500935/media/recent/?client_id=bf9bcae024a64386a723ee9187139ec9"
    }). done(function( data ) {
-    var recent_post_url = data.data[0].images.low_resolution.url;
-    console.log(recent_post_url);
+    var recent_post_url = data.data[0].images.standard_resolution.url;
+    console.log(data.data[0].location.name);
 //    console.log(data.data[0].images.thumbnail);
-    $(".result").html("<img src='" + recent_post_url + "' class='img-responsive'/>");
+    $(".result").html("<a href='http://instagram.com/nathancordovaartist' target='_blank'><figure class='lead-image-container2'> <img src='" + recent_post_url + "' class='img-responsive lead-dark'/><figcaption><h2 class='entry-title'>" + data.data[0].location.name + "</h2></figcaption></figure> </a>");
   });
 
 </script>

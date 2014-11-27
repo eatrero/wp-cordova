@@ -4,11 +4,13 @@
 .hentry .entry-content { }
 .hentry footer { }
 
-.lead-image-container {
+.lead-image-container,
+.lead-image-container2 {
     display:inline-block;
     position: relative;
 }
-.lead-image-container:after {
+.lead-image-container:after,
+.lead-image-container2:after {
     content:'';
     top: 0;
     left: 0;
@@ -21,7 +23,8 @@
     opacity: 0.15;
   -webkit-transition: all 0.7s ease;
 }
-.lead-image-container:hover:after {
+.lead-image-container:hover:after,
+.lead-image-container2:hover:after {
     opacity: 0;
     display: none;
 }
@@ -90,26 +93,36 @@ h2.entry-title {
 }
 
 figure.lead-image-container figcaption::before,
-figure.lead-image-container figcaption::after {
+figure.lead-image-container figcaption::after,
+figure.lead-image-container2 figcaption::before,
+figure.lead-image-container2 figcaption::after {
   position: absolute;
-  top: 30px;
-  right: 30px;
-  bottom: 30px;
-  left: 30px;
+  top: 5%;
+  right: 5%;
+  bottom: 5%;
+  left: 5%;
   content: '';
   opacity: 0;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
 }
 
-figure.lead-image-container figcaption::before {
+figure.lead-image-container2 figcaption::before,
+figure.lead-image-container2 figcaption::after {
+  top: 20%;
+  bottom: 20%;
+}
+
+figure.lead-image-container figcaption::before,
+figure.lead-image-container2 figcaption::before {
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
   -webkit-transform: scale(0,1);
   transform: scale(0,1);
 }
 
-figure.lead-image-container figcaption::after {
+figure.lead-image-container figcaption::after,
+figure.lead-image-container2 figcaption::after {
   border-right: 1px solid #fff;
   border-left: 1px solid #fff;
   -webkit-transform: scale(1,0);
@@ -117,7 +130,9 @@ figure.lead-image-container figcaption::after {
 }
 
 figure.lead-image-container:hover figcaption::before,
-figure.lead-image-container:hover figcaption::after {
+figure.lead-image-container2:hover figcaption::before,
+figure.lead-image-container:hover figcaption::after,
+figure.lead-image-container2:hover figcaption::after {
   opacity: 1;
   -webkit-transform: scale(1);
   transform: scale(1);
@@ -137,6 +152,11 @@ figure.lead-image-container h2{
   transform: translate3d(0,-20px,0);
 }
 
+figure.lead-image-container2 h2{
+  padding-top: 27%;
+  transform: translate3d(0,-20px,0);
+}
+
 @media (min-width: 990px) {
   figcaption {
     padding: 60px;
@@ -144,6 +164,10 @@ figure.lead-image-container h2{
   figure.lead-image-container h2 {
     padding-top:25%;
     font-size: 24px;
+  }
+  figure.lead-image-container2 h2 {
+    padding-top:40%;
+    font-size: 16px;
   }
 }
 @media (min-width: 768px) and (max-width: 990px){
@@ -154,6 +178,10 @@ figure.lead-image-container h2{
     padding-top:25%;
     font-size: 20px;
   }
+  figure.lead-image-container2 h2 {
+    padding-top:25%;
+    font-size: 20px;
+  }
 }
 @media (max-width: 768px){
   figcaption {
@@ -161,6 +189,10 @@ figure.lead-image-container h2{
   }
   figure.lead-image-container h2 {
     padding-top:25%;
+    font-size: 18px;
+  }
+  figure.lead-image-container2 h2  {
+    padding-top:50%;
     font-size: 18px;
   }
   figure {
