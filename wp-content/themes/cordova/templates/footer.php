@@ -3,12 +3,6 @@
     <?php dynamic_sidebar('sidebar-footer'); ?>
     <section>
     	<div class="row">
-	    	<div class="col-sm-6 col-md-4 col-xs-12">
-		    	<h3 class="h3-span"> Instagram	</h3>
-		    	<div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 col-sm-offset-1">
-  		    	<p class='result'></p>
-		    	</div>
-	    	</div>
 
 	    	<div class="col-sm-6 col-md-4 col-xs-12 hidden-xs hidden-sm">
 	    	  <article class="col-sm-11">
@@ -25,6 +19,13 @@
 	  	    </article>
 	    	</div>
 
+	    	<div class="col-sm-6 col-md-4 col-xs-12">
+		    	<h3 class="h3-span"> Instagram	</h3>
+		    	<div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1">
+  		    	<p class='result'></p>
+		    	</div>
+	    	</div>
+	    	
 	    	<div class="col-sm-6 col-md-4 col-xs-12">
 		    	<h3 class="h3-span"> Contact Nathan</h3>
 		    	<div class="contact-form">
