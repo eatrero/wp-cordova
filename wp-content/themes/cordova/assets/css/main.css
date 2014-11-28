@@ -6815,6 +6815,9 @@ footer {
     margin-bottom: 15px;
   }
 }
+.last-section {
+  margin-bottom: 75px;
+}
 .nathan-cordova-span,
 .photographer-span {
   display: block;
