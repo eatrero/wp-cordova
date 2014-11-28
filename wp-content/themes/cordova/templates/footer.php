@@ -7,6 +7,7 @@
 	    	<div class="col-sm-6 col-md-4 col-xs-12 hidden-xs hidden-sm">
 	    	  <article class="col-sm-11">
   		    	<h3 class="h3-span"> Recent Posts	</h3>
+  		    	<hr class="hr-footer">
   		    	<ul class="post-ul">
   		    	<?php $recent_posts = cordova_get_recent_posts(); ?>
             <?php
@@ -16,19 +17,22 @@
             <?php endforeach;
             ?>
             </ul>
+  		    	<hr class="hr-footer">
 	  	    </article>
 	    	</div>
 
-	    	<div class="col-sm-6 col-md-4 col-xs-12">
+	    	<div class="col-sm-6 col-md-4 col-xs-12 instagram-footer">
 		    	<h3 class="h3-span"> Instagram	</h3>
-		    	<div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1">
+		    	<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-xs-offset-2 col-sm-offset-2 col-md-offset-2 col-lg-offset-2">
   		    	<p class='result'></p>
 		    	</div>
 	    	</div>
-	    	
+
+	    	<hr class="style-two visible-xs seperator-xs">
+
 	    	<div class="col-sm-6 col-md-4 col-xs-12">
 		    	<h3 class="h3-span"> Contact Nathan</h3>
-		    	<div class="contact-form">
+ 		    	<div class="contact-form">
   		    	<?php gravity_form(1, false, false, false, '', true); ?>
   		    </div>
 	    	</div>
@@ -184,33 +188,7 @@ if(document.getElementById('googleMap')){
   $('.contact-form').show();
 
 </script>
-<style>
-hr.style-two {
-  clear: both;
-  float: none;
-  width: 100%;
-  height: 1px;
-  margin: 1.4em 0;
-  border: none;
-  background: #333;
-  background-image: -webkit-gradient(
-    linear,
-    left bottom,
-    right bottom,
-    color-stop(0, rgb(255,255,255)),
-    color-stop(0.1, rgb(180,180,180)),
-    color-stop(0.9, rgb(180,180,180)),
-    color-stop(1, rgb(255,255,255))
-  );
-  background-image: -moz-linear-gradient(
-    left center,
-    rgb(255,255,255) 0%,
-    rgb(221,221,221) 10%,
-    rgb(221,221,221) 90%,
-    rgb(255,255,255) 100%
-  );
-}
-</style>
+
 <script>
 
   $.ajax({

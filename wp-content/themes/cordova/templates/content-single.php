@@ -2,7 +2,7 @@
   <div class="container">
     <article class="col-sm-12 col-xs-12 blog-article" <?php post_class(); ?>>
       <hr class='style-two'>
-      <header>
+      <header class='post-header'>
         <?php get_template_part('templates/entry-meta'); ?>
       </header>
       <div class="entry-content">

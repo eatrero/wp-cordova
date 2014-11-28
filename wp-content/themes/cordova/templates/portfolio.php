@@ -9,7 +9,7 @@
       <a href='<?php echo $feature['url']; ?>'>
 			<figure class="col-sm-12 col-xs-12 lead-image-container">
         <img class='img-responsive lead-dark' src='<?php echo $feature['feat_image']; ?>' />
-				  <figcaption><h3></h3>
+				  <figcaption><h3 class='entry-title'><?php echo ($feature['description'] ? $feature['description'] : $feature['title']) ?></h3>
 		    	</figcaption>
       </figure>
       </a>
