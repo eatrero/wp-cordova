@@ -6859,7 +6859,8 @@ footer {
   font-size: 1.5em;
   text-align: center;
 }
-.h2-span {
+.h2-span,
+.h2-span-featured {
   display: block;
   font-size: 2.0em;
   font-family: 'Gibson-Light';
@@ -6869,6 +6870,9 @@ footer {
        -o-transition: all 0.4s ease-in-out;
           transition: all 0.4s ease-in-out;
   text-align: center;
+}
+.h2-span-featured {
+  margin-bottom: 20px;
 }
 .h3-span {
   margin-bottom: 1.5em;

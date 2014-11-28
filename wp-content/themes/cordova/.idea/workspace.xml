@@ -77,8 +77,8 @@
       <file leaf-file-name="_home.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/less/layouts/pages/_home.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.612245" vertical-offset="643" max-vertical-offset="1200">
-              <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="17" />
+            <state vertical-scroll-proportion="-11.666667" vertical-offset="590" max-vertical-offset="1275">
+              <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -104,21 +104,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="utils.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="utils.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/utils.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.69512194" vertical-offset="1263" max-vertical-offset="2355">
-              <caret line="107" column="59" selection-start-line="107" selection-start-column="59" selection-end-line="107" selection-end-column="59" />
+            <state vertical-scroll-proportion="-10.269231" vertical-offset="1263" max-vertical-offset="2355">
+              <caret line="102" column="69" selection-start-line="102" selection-start-column="69" selection-end-line="102" selection-end-column="69" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="portfolio.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="portfolio.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/portfolio.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-              <caret line="10" column="73" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
+            <state vertical-scroll-proportion="0.33898306" vertical-offset="0" max-vertical-offset="531">
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -186,12 +186,12 @@
         <option value="$PROJECT_DIR$/templates/content-single.php" />
         <option value="$PROJECT_DIR$/templates/entry-meta.php" />
         <option value="$PROJECT_DIR$/templates/head.php" />
-        <option value="$PROJECT_DIR$/assets/less/layouts/pages/_home.less" />
         <option value="$PROJECT_DIR$/templates/footer.php" />
-        <option value="$PROJECT_DIR$/templates/portfolio.php" />
         <option value="$PROJECT_DIR$/assets/less/layouts/_posts.less" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/lib/utils.php" />
+        <option value="$PROJECT_DIR$/assets/less/layouts/pages/_home.less" />
+        <option value="$PROJECT_DIR$/templates/portfolio.php" />
       </list>
     </option>
   </component>
@@ -742,7 +742,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="102608" max-vertical-offset="106500">
           <caret line="6846" column="0" selection-start-line="6832" selection-start-column="0" selection-end-line="6848" selection-end-column="1" />
           <folding>
-            <marker date="1417208765000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1417211656000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -779,14 +779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/less/layouts/pages/_home.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.612245" vertical-offset="643" max-vertical-offset="1200">
-          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cordova.sublime-workspace">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="13898" max-vertical-offset="53055">
@@ -819,18 +811,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/portfolio.php">
+    <entry file="file://$PROJECT_DIR$/lib/utils.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <caret line="10" column="73" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
+        <state vertical-scroll-proportion="-10.269231" vertical-offset="1263" max-vertical-offset="2355">
+          <caret line="102" column="69" selection-start-line="102" selection-start-column="69" selection-end-line="102" selection-end-column="69" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/utils.php">
+    <entry file="file://$PROJECT_DIR$/assets/less/layouts/pages/_home.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69512194" vertical-offset="1263" max-vertical-offset="2355">
-          <caret line="107" column="59" selection-start-line="107" selection-start-column="59" selection-end-line="107" selection-end-column="59" />
+        <state vertical-scroll-proportion="-11.666667" vertical-offset="590" max-vertical-offset="1275">
+          <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/portfolio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33898306" vertical-offset="0" max-vertical-offset="531">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
           <folding />
         </state>
       </provider>
