@@ -174,7 +174,7 @@ if(document.getElementById('googleMap')){
 
   $('.dropdown-toggle').attr('role','button');
   $('.contact-form').show();
-
+  $('#input_1_3').attr('id','input_1_3_a');
 </script>
 
 <script type="text/javascript">
