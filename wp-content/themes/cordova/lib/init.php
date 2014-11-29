@@ -29,6 +29,15 @@ function roots_setup() {
 
   // Tell the TinyMCE editor to use a custom stylesheet
   add_editor_style('/assets/css/editor-style.css');
+
+  add_shortcode( 'cordova_portfolio', 'cordova_get_portfolio_sc' );
+
+  add_theme_support( 'infinite-scroll', array(
+      'type' => 'scroll',
+      'container' => 'content',
+      'footer' => 'page',
+  ) );
+
 }
 add_action('after_setup_theme', 'roots_setup');
 
@@ -55,3 +64,5 @@ function roots_widgets_init() {
   ));
 }
 add_action('widgets_init', 'roots_widgets_init');
+
+

@@ -6401,8 +6401,8 @@ body {
 .col-lg-12 {
   position: relative;
   min-height: 1px;
-  padding-left: 4px;
-  padding-right: 4px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 .fade {
   opacity: 0;
@@ -6812,7 +6812,7 @@ footer {
 }
 @media (min-width: 768px) {
   .featured-work {
-    margin-bottom: 15px;
+    margin-bottom: 8px;
   }
 }
 .last-section {
@@ -7036,7 +7036,7 @@ figure.lead-image-container2 h2 {
 }
 @media (min-width: 990px) {
   figcaption {
-    padding: 60px;
+    padding: 40px;
   }
   figure.lead-image-container h2 {
     padding-top: 25%;
@@ -7105,5 +7105,18 @@ h1.post-title {
 figure.lead-image-container h3 {
   padding-top: 15%;
   font-size: 15px;
+}
+@media (min-width: 768px) {
+  .blog-thumb-left,
+  .blog-thumb-right {
+    width: 99.2%;
+  }
+  .blog-thumb-right {
+    margin-right: 0;
+    margin-left: auto;
+  }
+  .portfolio-thumb {
+    width: 98%;
+  }
 }
 /*# sourceMappingURL=main.css.map */

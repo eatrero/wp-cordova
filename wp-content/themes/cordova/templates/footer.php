@@ -44,18 +44,6 @@
 
 </footer>
 
-<script type="text/javascript">
-    // When the document is ready
-    $(document).ready(function () {
-
-/*        $('.event-datepicker').datepicker({
-            format: "mm/dd/yyyy"
-        });
-*/
-        $( ".event-datepicker" ).datepicker();
-
-    });
-</script>
 <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/FitText.js/1.1/jquery.fittext.min.js"></script>
 <script type="text/javascript" src="//maps.google.com/maps/api/js?sensor=false"></script>
@@ -181,12 +169,19 @@ if(document.getElementById('googleMap')){
 	$("[id='input_1_3']").addClass('form-control').css('margin-top','0px');
 	$("[id='input_1_3']").addClass('form-control').css('width','100%').css('border-radius','0px');
 	$("[id='input_1_4']").addClass('form-control');
-	$("[id='input_1_3']").after('<span class="input-group-btn"><button type="button" class="btn btn-calendar" ng-click="setEventDate($event)"><i class="glyphicon glyphicon-calendar"></i></button></span>');
+	$("[id='input_1_3']").after('<span class="input-group-btn"><button type="button" class="btn btn-calendar event-datepicker" ng-click="setEventDate($event)"><i class="glyphicon glyphicon-calendar"></i></button></span>');
 	$("[id='gform_submit_button_1']").addClass('btn btn-block btn-homepage');
 
   $('.dropdown-toggle').attr('role','button');
   $('.contact-form').show();
 
+</script>
+
+<script type="text/javascript">
+    // When the document is ready
+    $(document).ready(function () {
+        $( ".event-datepicker" ).datepicker();
+    });
 </script>
 
 <script>

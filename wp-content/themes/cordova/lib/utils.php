@@ -137,15 +137,15 @@ function cordova_get_portfolio_sc( $atts ) {
   $output = '';
   foreach($featured as $feature){
     $output .= "<article class='col-sm-4 featured-work'>";
+    $output .= "<div class='portfolio-thumb'>";
     $output .= "<a href='" . $feature['url'] . "'>";
     $output .= "<figure class='col-sm-12 col-xs-12 lead-image-container'>";
     $output .= "<img class='img-responsive lead-dark' src='" . $feature['feat_image']  . "'>";
     $output .= "<figcaption><h3 class='entry-title'>";
     $output .= $feature['description'] ? $feature['description'] : $feature['title'];
-    $output .= "</h3></figcaption></figure></a></article>";
+    $output .= "</h3></figcaption></figure></a></div></article>";
   }
 
   return $output;
 
 }
-add_shortcode( 'cordova_portfolio', 'cordova_get_portfolio_sc' );

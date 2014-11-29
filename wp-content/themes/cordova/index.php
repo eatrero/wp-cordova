@@ -8,7 +8,7 @@
 <?php endif; ?>
 
 <?php $i=0; ?>
-<div class="container">
+<div id="content" class="container last-section">
   <?php while (have_posts()) : the_post(); ?>
 
     <?php if($i==0){ ?>
@@ -20,9 +20,19 @@
 
     <?php } else { ?>
 
-      <div class='col-sm-6 col-xs-12 article-container'>
-        <?php get_template_part('templates/content', get_post_format()); ?>
-      </div>
+    <?php if( $i%2 ){ ?>
+        <div class='col-sm-6 col-xs-12 article-container'>
+          <div class='blog-thumb-left'>
+            <?php get_template_part('templates/content', get_post_format()); ?>
+          </div>
+        </div>
+    <?php   } else { ?>
+        <div class='col-sm-6 col-xs-12 article-container'>
+          <div class='blog-thumb-right'>
+            <?php get_template_part('templates/content', get_post_format()); ?>
+          </div>
+        </div>
+    <?php   } ?>
 
     <?php }
     $i++; ?>
