@@ -135,7 +135,13 @@ function cordova_get_portfolio_sc( $atts ) {
   $featured = cordova_get_portfolio($category_type);
 
   $output = '';
+  $i = 0;
+
   foreach($featured as $feature){
+    if($i%3 == 0) {
+      $output .= "<div class='row'>";
+    }
+
     $output .= "<article class='col-sm-4 featured-work'>";
     $output .= "<div class='portfolio-thumb'>";
     $output .= "<a href='" . $feature['url'] . "'>";
@@ -144,6 +150,11 @@ function cordova_get_portfolio_sc( $atts ) {
     $output .= "<figcaption><h3 class='entry-title'>";
     $output .= $feature['description'] ? $feature['description'] : $feature['title'];
     $output .= "</h3></figcaption></figure></a></div></article>";
+
+    if($i%3 == 2) {
+      $output .= "</div>";
+    }
+    $i++;
   }
 
   return $output;

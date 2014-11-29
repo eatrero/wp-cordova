@@ -6430,6 +6430,9 @@ hr {
   border: 0;
   border-top: 1px solid #000000;
 }
+a:hover {
+  color: #5e5e5e;
+}
 .btn-sm,
 .btn-group-sm > .btn,
 .btn-group-sm > .btn {

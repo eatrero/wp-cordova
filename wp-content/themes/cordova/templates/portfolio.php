@@ -3,10 +3,14 @@
   <h2 class='h2-span-featured'> Featured Work </h2>
 
  <?php $featured = cordova_get_featured();
-       $i = 0;
-       foreach ( $featured as $feature ) :
-      ?>
-    <article class="col-sm-4 featured-work">
+     $i = 0;
+     foreach ( $featured as $feature ) :
+
+     if($i%3 == 0) { ?>
+       <div class='row'>
+     <?php } ?>
+
+     <article class="col-sm-4 featured-work">
       <div class="portfolio-thumb">
         <a href='<?php echo $feature['url']; ?>'>
           <figure class="col-sm-12 col-xs-12 lead-image-container">
@@ -15,8 +19,15 @@
             </figcaption>
           </figure>
         </a>
+      </div>
+     </article>
+
+    <?php if($i%3 == 2) { ?>
      </div>
-    </article>
+    <?php }
+    $i++;
+    ?>
+
  <?php endforeach; ?>
 
 </section>
