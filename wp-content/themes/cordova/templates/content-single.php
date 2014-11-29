@@ -8,11 +8,13 @@
       <div class="entry-content">
         <?php the_content(); ?>
       </div>
-      <hr class='style-two'>
       <footer>
-        <?php wp_link_pages(array('before' => '<nav class="page-nav"><p>' . __('Pages:', 'roots'), 'after' => '</p></nav>')); ?>
+        <span class='pull-left'><?php previous_post_link(); ?></span>
+        <span class='pull-right'><?php next_post_link(); ?></span>
       </footer>
+      <hr class='style-two'>
       <?php comments_template('/templates/comments.php'); ?>
     </article>
+
   </div>
 <?php endwhile; ?>

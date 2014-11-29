@@ -77,11 +77,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_posts.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_posts.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/less/layouts/_posts.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33193278" vertical-offset="3202" max-vertical-offset="5340">
-              <caret line="168" column="14" selection-start-line="168" selection-start-column="14" selection-end-line="168" selection-end-column="14" />
+            <state vertical-scroll-proportion="-7.2" vertical-offset="4884" max-vertical-offset="5540">
+              <caret line="264" column="17" selection-start-line="264" selection-start-column="17" selection-end-line="264" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content-single.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/content-single.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.34749034" vertical-offset="0" max-vertical-offset="518">
+              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -173,7 +183,6 @@
         <option value="$PROJECT_DIR$/assets/less/layouts/_footer.less" />
         <option value="$PROJECT_DIR$/assets/less/layouts/_general.less" />
         <option value="$PROJECT_DIR$/assets/less/components/_buttons.less" />
-        <option value="$PROJECT_DIR$/templates/content-single.php" />
         <option value="$PROJECT_DIR$/templates/entry-meta.php" />
         <option value="$PROJECT_DIR$/templates/head.php" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
@@ -188,6 +197,7 @@
         <option value="$PROJECT_DIR$/lib/utils.php" />
         <option value="$PROJECT_DIR$/lib/init.php" />
         <option value="$PROJECT_DIR$/assets/less/layouts/_posts.less" />
+        <option value="$PROJECT_DIR$/templates/content-single.php" />
       </list>
     </option>
   </component>
@@ -775,14 +785,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/content-single.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/vendor/bootstrap/dist/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="20693" max-vertical-offset="95070">
@@ -857,8 +859,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/less/layouts/_posts.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33193278" vertical-offset="3202" max-vertical-offset="5340">
-          <caret line="168" column="14" selection-start-line="168" selection-start-column="14" selection-end-line="168" selection-end-column="14" />
+        <state vertical-scroll-proportion="-7.2" vertical-offset="4884" max-vertical-offset="5540">
+          <caret line="264" column="17" selection-start-line="264" selection-start-column="17" selection-end-line="264" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/content-single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34749034" vertical-offset="0" max-vertical-offset="518">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
           <folding />
         </state>
       </provider>
