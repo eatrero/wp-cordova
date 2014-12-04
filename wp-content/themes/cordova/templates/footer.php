@@ -70,8 +70,8 @@ if(document.getElementById('googleMap')){
 			scrollwheel: false,
 			navigationControl: false,
 			mapTypeControl: false,
-      zoom: 2,
-      center: new google.maps.LatLng(0, 0),
+      zoom: 3,
+      center: new google.maps.LatLng(40, -110),
 			zoomControl: true,
 			disableDefaultUI: true,
 			mapTypeId: 'Styled'
@@ -189,12 +189,12 @@ if(document.getElementById('googleMap')){
   $.ajax({
   type: "GET",
   dataType: "jsonp",
-  url: "https://api.instagram.com/v1/users/1532500935/media/recent/?client_id=bf9bcae024a64386a723ee9187139ec9"
+  url: "https://api.instagram.com/v1/users/1556471062/media/recent/?client_id=bf9bcae024a64386a723ee9187139ec9"
    }). done(function( data ) {
     var recent_post_url = data.data[0].images.standard_resolution.url;
     console.log(data.data[0].location.name);
 //    console.log(data.data[0].images.thumbnail);
-    $(".result").html("<a href='http://instagram.com/nathancordovaartist' target='_blank'><figure class='lead-image-container2'> <img src='" + recent_post_url + "' class='img-responsive'/><figcaption><h2 class='entry-title'>" + data.data[0].location.name + "</h2></figcaption></figure> </a>");
+    $(".result").html("<a href='http://instagram.com/ncordovaphoto' target='_blank'><figure class='lead-image-container2'> <img src='" + recent_post_url + "' class='img-responsive'/><figcaption><h2 class='entry-title'>" + (data.data[0].location.name  ? data.data[0].location.name  :'' ) + "</h2></figcaption></figure> </a>");
   });
 
 </script>
