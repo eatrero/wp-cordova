@@ -71,7 +71,7 @@ if(document.getElementById('googleMap')){
 			navigationControl: false,
 			mapTypeControl: false,
       zoom: 3,
-      center: new google.maps.LatLng(40, -110),
+      center: new google.maps.LatLng(35, -97.7),
 			zoomControl: true,
 			disableDefaultUI: true,
 			mapTypeId: 'Styled'
