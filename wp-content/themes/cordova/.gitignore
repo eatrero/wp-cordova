@@ -7,3 +7,4 @@ node_modules
 *.sublime-project
 .idea*
 .idea/*
+assets/img/engagement/

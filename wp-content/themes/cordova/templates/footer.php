@@ -111,7 +111,7 @@
     // When the document is ready
     $(document).ready(function () {
         $( ".event-datepicker" ).datepicker();
-        $( "p").widont();
+        $( "p.testimonial").widont();
     });
 </script>
 

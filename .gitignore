@@ -25,6 +25,8 @@ wp-content/plugins/jetpack/*
 wp-content/themes/cordova/.idea/workspace.xml
 wp-content/themes/cordova/.idea/*
 wp-content/themes/cordova/.idea/workspace.xml/*
+wp-content/themes/cordova/assets/img/engagement/*
+wp-content/themes/cordova/assets/img/testimonials/*
 
 # wpengine specific
 .smushit-status

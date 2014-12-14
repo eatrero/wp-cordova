@@ -27,6 +27,16 @@ module.exports = function(grunt) {
 
     ];
   grunt.initConfig({
+    imagemin: {                          // Task
+      dynamic: {                         // Another target
+        files: [{
+          expand: true,                  // Enable dynamic expansion
+          cwd: 'assets/img/engagement/src/',                   // Src matches are relative to this path
+          src: ['**/*.{png,jpg,gif,JPG}'],   // Actual patterns to match
+          dest: 'assets/img/engagement/optimized/'                  // Destination path prefix
+        }]
+      }
+    },
     jshint: {
       options: {
         jshintrc: '.jshintrc'
@@ -168,8 +178,8 @@ module.exports = function(grunt) {
     }
   });
 
-grunt.loadNpmTasks('grunt-browserify');
-
+  grunt.loadNpmTasks('grunt-browserify');
+  grunt.loadNpmTasks('grunt-contrib-imagemin');
 
   // Register tasks
   grunt.registerTask('default', [
