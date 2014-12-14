@@ -6824,6 +6824,9 @@ footer {
 p.testimonial {
   text-align: justify;
 }
+section.testimonial {
+  margin-top: 30px;
+}
 .nathan-cordova-span,
 .photographer-span {
   display: block;
