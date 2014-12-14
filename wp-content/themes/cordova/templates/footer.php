@@ -47,112 +47,42 @@
 <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/FitText.js/1.1/jquery.fittext.min.js"></script>
 <script type="text/javascript" src="//maps.google.com/maps/api/js?sensor=false"></script>
+
+
+
 <script type="text/javascript">
-//<![CDATA[
 
-if(document.getElementById('googleMap')){
-
-  var map;
-	var color = "#85cad1"; //Set your tint color. Needs to be a hex value.
-  var styles = [
-      {
-        stylers: [
-          { saturation: -100 }
-        ]
-      }
-  ];
-  var styledMapType = new google.maps.StyledMapType(styles, { name: 'Styled' });
-
-  var myOptions = {
-			mapTypeControlOptions: {
-				mapTypeIds: ['Styled']
-			},
-			scrollwheel: false,
-			navigationControl: false,
-			mapTypeControl: false,
-      zoom: 3,
-      center: new google.maps.LatLng(35, -97.7),
-			zoomControl: true,
-			disableDefaultUI: true,
-			mapTypeId: 'Styled'
-  };
-  var addresses;
-
-  var div = document.getElementById('googleMap');
-
-  map = new google.maps.Map($(div)[0], myOptions);
-  map.mapTypes.set('Styled', styledMapType);
-	var	bounds = new google.maps.LatLngBounds(
-		  new google.maps.LatLng(-84.999999, -179.999999),
-		  new google.maps.LatLng(84.999999, 179.999999));
-
-  rect = new google.maps.Rectangle({
-      bounds: bounds,
-      fillColor: color,
-      fillOpacity: 0.2,
-      strokeWeight: 0,
-      map: map
-  });
-
-  addresses = [
-    <?php
+  var addresses = [
+  <?php
     $locations = cordova_get_locations();
-      foreach ( $locations as $location ) :
-    ?>
-      "<?php echo $location['location']; ?>",
-    <?php endforeach;
-    ?>
-  ];
+  foreach ( $locations as $location ) :
+  ?>
+  "<?php echo $location['location']; ?>",
+<?php endforeach;
+  ?>
+];
 
-	var urls = [
-    <?php
-      foreach ( $locations as $location ) :
-    ?>
-      "<?php echo $location['url']; ?>",
-    <?php endforeach;
-    ?>
-  ];
+  var urls = [
+  <?php
+    foreach ( $locations as $location ) :
+  ?>
+  "<?php echo $location['url']; ?>",
+<?php endforeach;
+  ?>
+];
 
   var	feat_images  = [
-      <?php
-        foreach ( $locations as $location ) :
-      ?>
-        "<?php echo $location['feat_image']; ?>",
-      <?php endforeach;
-      ?>
-    ];
-
-
-  console.log(urls);
-
-  for (var i = 0; i < addresses.length; i++) {
-
-    function inline(i) {
-      $.getJSON('//maps.googleapis.com/maps/api/geocode/json?address='+addresses[i]+'&sensor=false', null, function (data) {
-        var p = data.results[0].geometry.location
-        var latlng = new google.maps.LatLng(p.lat, p.lng);
-        var marker = new google.maps.Marker({
-            position: latlng,
-            map: map
-        });
-        google.maps.event.addListener(marker, 'click', function() {
-            window.location = urls[i];
-        });
-
-        var infowindow = new google.maps.InfoWindow({
-//              content: "<div class='iwContent'>"+addresses[i]+"</div>"
-                content: "<a href='"+ urls[i] +  "'><img src=" + feat_images[i]  + " width='100' /></a>"
-        });
-        google.maps.event.addListener(marker, 'mouseover', function() {
-            infowindow.open(map,marker);
-        });
-
-      });
-    }
-    inline(i);
-  }
-}
+  <?php
+    foreach ( $locations as $location ) :
+  ?>
+  "<?php echo $location['feat_image']; ?>",
+<?php endforeach;
+  ?>
+];
 </script>
+
+<script src="<?php echo get_template_directory_uri() . '/assets/js/footer.js' ?> ">
+
 <script>
 
 	$("[id='field_1_5']","[id='field_1_2']").wrapAll('<div class="row">');
@@ -181,6 +111,7 @@ if(document.getElementById('googleMap')){
     // When the document is ready
     $(document).ready(function () {
         $( ".event-datepicker" ).datepicker();
+        $( "p").widont();
     });
 </script>
 
