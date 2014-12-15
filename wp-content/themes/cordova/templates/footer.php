@@ -85,33 +85,47 @@
 
 <script>
 
-	$("[id='field_1_5']","[id='field_1_2']").wrapAll('<div class="row">');
-	$("[id='field_1_3']","[id='field_1_4']").wrapAll('<div class="row">');
-	$('.ginput_container').children().removeClass('medium');
-	$("[id='field_1_5']").wrap('<div class="form-group col-md-6 col-sm-12 col-xs-6"></div>');
-	$("[id='field_1_2']").wrap('<div class="form-group col-md-6 col-sm-12 col-xs-6"></div>');
-	$("[id='field_1_3']").wrap('<div class="form-group col-md-6 col-sm-12 col-xs-6"></div>');
-	$("[id='field_1_4']").wrap('<div class="form-group col-md-6 col-sm-12 col-xs-6"></div>');
 
-	$("[id='input_1_5']").addClass('form-control');
-	$("[id='input_1_2']").addClass('form-control');
-	$("[id='input_1_3']").addClass('form-control').wrap('<p class="input-group">');
-	$("[id='input_1_3']").addClass('form-control').css('margin-top','0px');
-	$("[id='input_1_3']").addClass('form-control').css('width','100%').css('border-radius','0px');
-	$("[id='input_1_4']").addClass('form-control');
-	$("[id='input_1_3']").after('<span class="input-group-btn"><button type="button" class="btn btn-calendar event-datepicker" ng-click="setEventDate($event)"><i class="glyphicon glyphicon-calendar"></i></button></span>');
-	$("[id='gform_submit_button_1']").addClass('btn btn-block btn-homepage');
-
-  $('.dropdown-toggle').attr('role','button');
-  $('.contact-form').show();
-  $('#input_1_3').attr('id','input_1_3_a');
 </script>
 
 <script type="text/javascript">
     // When the document is ready
     $(document).ready(function () {
-        $( ".event-datepicker" ).datepicker();
-        $( "p.testimonial").widont();
+      $( ".event-datepicker" ).datepicker();
+      $( ".event-datepicker" ).datepicker();
+      $( "p.testimonial").widont();
+
+      $("[id='field_1_5']","[id='field_1_2']").wrapAll('<div class="row">');
+      $("[id='field_1_3']","[id='field_1_4']").wrapAll('<div class="row">');
+      $('.ginput_container').children().removeClass('medium');
+      $("[id='field_1_5']").wrap('<div class="form-group col-md-6 col-sm-12 col-xs-6"></div>');
+      $("[id='field_1_2']").wrap('<div class="form-group col-md-6 col-sm-12 col-xs-6"></div>');
+      $("[id='field_1_3']").wrap('<div class="form-group col-md-6 col-sm-12 col-xs-6"></div>');
+      $("[id='field_1_4']").wrap('<div class="form-group col-md-6 col-sm-12 col-xs-6"></div>');
+
+      $("[id='input_1_5']").addClass('form-control');
+      $("[id='input_1_2']").addClass('form-control');
+      $("[id='input_1_3']").addClass('form-control').wrap('<p class="input-group">');
+      $("[id='input_1_3']").addClass('form-control').css('margin-top','0px');
+      $("[id='input_1_3']").addClass('form-control').css('width','100%').css('border-radius','0px');
+      $("[id='input_1_4']").addClass('form-control');
+      $("[id='input_1_3']").after('<span class="input-group-btn"><button id="cal-btn" type="button" class="btn btn-calendar event-datepicker"><i class="glyphicon glyphicon-calendar"></i></button></span>');
+      $("[id='gform_submit_button_1']").addClass('btn btn-block btn-homepage');
+
+      $('.dropdown-toggle').attr('role','button');
+
+      $('#input_1_3').attr('id','input_1_3_a');
+      $('#cal-btn').attr('id','cal-btn_a');
+
+      $("#cal-btn_a").click(function(){
+        $("#input_1_3_a").datepicker('show');
+      });
+
+      $("#cal-btn").click(function(){
+        $("#input_1_3").datepicker('show');
+      });
+
+      $('.contact-form').show();
     });
 </script>
 
