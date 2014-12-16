@@ -1,5 +1,4 @@
-<section class='container testimonial-container'>
-  <hr class='style-two'>
+<section class='container testimonial-container' style='margin-top:80px;margin-bottom:80px;'>
   <h2 class='h2-span-featured'> Featured Work </h2>
 
  <?php $featured = cordova_get_featured();
