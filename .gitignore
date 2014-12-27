@@ -1,10 +1,11 @@
 *~
-.DS_Store
+*.DS_Store
 .svn
 .cvs
 *.bak
 *.swp
 Thumbs.db
+wp-content/themes/cordova/assets/js/.DS_Store
 
 # wordpress specific
 wp-config.php

@@ -34,6 +34,14 @@ function roots_cordova_filter_content($content) {
 		$imgs = $doc->getElementsByTagName('img');
 		foreach ($imgs as $img) {
 			$img->setAttribute('class', 'img-responsive blog-images');
+		  if($img->getAttribute('height') > $img->getAttribute('width')){
+
+        $after = $doc->createElement("div","");
+        $after->setAttribute('class', 'row');
+
+  			$img->setAttribute('class', 'img-responsive blog-images col-sm-6 col-sm-offset-3');
+  			$img->appendChild($after);
+			}
 		}
 		$content = $doc->saveXML();
 	}
