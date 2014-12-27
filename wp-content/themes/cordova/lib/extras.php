@@ -39,7 +39,7 @@ function roots_cordova_filter_content($content) {
         $after = $doc->createElement("div","");
         $after->setAttribute('class', 'row');
 
-  			$img->setAttribute('class', 'img-responsive blog-images col-sm-6 col-sm-offset-3');
+  			$img->setAttribute('class', 'img-responsive blog-images col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2');
   			$img->appendChild($after);
 			}
 		}
