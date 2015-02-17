@@ -78,7 +78,7 @@
     <div class='col-sm-4 col-sm-offset-1'>
         <h3>Share this post</h3>
         <?php $perm = get_permalink();?>
-        <a href="https://www.facebook.com/dialog/share?app_id=145634995501895&display=popup&href=<?php echo $perm;?>&redirect_uri=<?php echo $perm;?>">facebook</a>
+        <a href="https://www.facebook.com/dialog/share?app_id=814169431964357&display=popup&href=<?php echo $perm;?>&redirect_uri=<?php echo $perm;?>">facebook</a>
     </div>
   <?php endif; ?>
 </section><!-- /#respond -->
