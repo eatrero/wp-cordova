@@ -13,6 +13,7 @@ function inline(i) {
     });
     google.maps.event.addListener(marker, 'click', function() {
       window.location = urls[i];
+      console.log(urls[i]);
     });
 
     var infowindow = new google.maps.InfoWindow({
