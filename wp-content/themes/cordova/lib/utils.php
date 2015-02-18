@@ -17,7 +17,7 @@ add_filter('get_search_form', 'roots_get_search_form');
 
 
 function cordova_get_locations() {
-  $args = array( 'posts_per_page' => 20, 'offset'=> 0 );
+  $args = array( 'posts_per_page' => 200, 'offset'=> 0 );
   $locations = array();
 
   $myposts = get_posts( $args );
@@ -36,7 +36,7 @@ function cordova_get_locations() {
   $args = array(
 	'sort_order' => 'ASC',
 	'sort_column' => 'post_title',
-	'hierarchical' => 1,
+	'hierarchical' => 0,
 	'exclude' => '',
 	'include' => '',
 	'meta_key' => '',
