@@ -79,6 +79,8 @@
         <h3>Share this post</h3>
         <?php $perm = get_permalink();?>
         <a href="https://www.facebook.com/dialog/share?app_id=814169431964357&display=popup&href=<?php echo $perm;?>&redirect_uri=<?php echo $perm;?>">facebook</a>
+
+        <div class="fb-share-button" data-href="<?php echo $perm;?>" data-layout="link">facebook</div>
     </div>
   <?php endif; ?>
 </section><!-- /#respond -->
