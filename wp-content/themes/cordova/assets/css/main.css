@@ -6465,9 +6465,10 @@ p.input-group {
   border-radius: 3px;
 }
 .btn-calendar {
-  padding: 4px 7px;
-  border: 1px solid #000000;
+  padding: 5px 10px;
+  border: 0px solid #f0f0f0;
   border-radius: 0px;
+  background-color: #f6f6f6;
 }
 .btn-homepage {
   border-radius: 0px;
@@ -6496,9 +6497,9 @@ p.input-group {
   font-size: 14px;
   line-height: 1.42857143;
   color: #555555;
-  background-color: #ffffff;
+  background-color: #f6f6f6;
   background-image: none;
-  border: 1px solid #676767;
+  border: 0px solid #676767;
   border-radius: 0px;
   -webkit-transition: all ease-in-out 0.2s;
   -o-transition: all ease-in-out 0.2s;
@@ -6520,6 +6521,9 @@ p.input-group {
 }
 .contact-form {
   display: none;
+}
+.ginput_container {
+  margin: 3px;
 }
 .gallery-row {
   padding: 10px 0;
