@@ -1417,7 +1417,7 @@ pre code {
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 1080px;
   }
 }
 .container-fluid {
@@ -2373,7 +2373,7 @@ output {
   -webkit-transition: all ease-in-out .2s;
   -o-transition: all ease-in-out .2s;
   transition: all ease-in-out .2s;
-  font-family: "Gibson","proxima-nova-sc-osf", Helvetica, Arial;  
+  font-family: "Gibson","proxima-nova-sc-osf", Helvetica, Arial;
 }
 .form-control:focus {
   border-color: #66afe9;
@@ -6365,7 +6365,7 @@ figure.alignnone {
 .img-center {
   display: block;
   margin-left: auto;
-  margin-right: auto 
+  margin-right: auto
 }
 
 .entry-title {
@@ -6391,7 +6391,7 @@ figure.alignnone {
 
 .article-container {
   margin-bottom: 8px;
-} 
+}
 
 .lead-image-container {
     display:inline-block;
