@@ -1392,7 +1392,7 @@ pre code {
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1080px;
+    width: 1170px;
   }
 }
 .container-fluid {
@@ -6433,6 +6433,11 @@ hr {
 a:hover {
   color: #5e5e5e;
 }
+@media (min-width: 1200px) {
+  .container {
+    width: 1080px;
+  }
+}
 .btn-sm,
 .btn-group-sm > .btn,
 .btn-group-sm > .btn {
@@ -6577,8 +6582,8 @@ figure.alignnone {
 }
 .introduction {
   background-color: white;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   margin-left: -8px;
   margin-right: -8px;
 }
