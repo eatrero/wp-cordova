@@ -6638,7 +6638,6 @@ a {
   position: absolute;
   left: 0px;
   padding: 15px 15px;
-  font-size: 2.0rem;
   font-family: 'Gibson-Light';
   line-height: 22px;
   letter-spacing: 0.2em;
@@ -6676,6 +6675,24 @@ a {
   }
   .navbar-nav > li {
     position: relative !important;
+  }
+  .nav > li > a {
+    padding: 10px 5px;
+  }
+}
+@media (max-width: 830px) {
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 831px) {
+  .navbar-brand {
+    font-size: 2.0rem;
+  }
+}
+@media (min-width: 900px) {
+  .nav > li > a {
+    padding: 10px 15px;
   }
 }
 .navbar-default {
