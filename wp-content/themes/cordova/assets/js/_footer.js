@@ -3,8 +3,9 @@
  */
 var _ = require('underscore');
 var map;
-function inline(i) {
-  $.getJSON('//maps.googleapis.com/maps/api/geocode/json?address='+addresses[i]+'&sensor=false', null, function (data) {
+function inline(addy) {
+  $.getJSON('//maps.googleapis.com/maps/api/geocode/json?address='+ addy +'&sensor=false', null, function (data) {
+    console.log(data);
     var p = data.results[0].geometry.location;
     var latlng = new google.maps.LatLng(p.lat, p.lng);
     var marker = new google.maps.Marker({
@@ -71,7 +72,7 @@ if(document.getElementById('googleMap')){
 
   console.log(urls);
 
-  for (var i = 0; i < addresses.length; i++) {
-    inline(i);
-  }
+  addresses.map(function(addy){
+    inline(addy);
+  });
 }
