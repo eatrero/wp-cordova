@@ -3,9 +3,10 @@
  */
 var _ = require('underscore');
 var map;
-function inline(addy) {
-  $.getJSON('//maps.googleapis.com/maps/api/geocode/json?address='+ addy +'&sensor=false', null, function (data) {
+function inline(location) {
+  $.getJSON('//maps.googleapis.com/maps/api/geocode/json?address='+ location.location +'&sensor=false', null, function (data) {
     console.log(data);
+    console.log(location);
     var p = data.results[0].geometry.location;
     var latlng = new google.maps.LatLng(p.lat, p.lng);
     var marker = new google.maps.Marker({
@@ -13,13 +14,13 @@ function inline(addy) {
       map: map
     });
     google.maps.event.addListener(marker, 'click', function() {
-      window.location = urls[i];
-      console.log(urls[i]);
+      window.location = location.url;
+      console.log(location.url);
     });
 
     var infowindow = new google.maps.InfoWindow({
 //              content: "<div class='iwContent'>"+addresses[i]+"</div>"
-      content: "<a href='"+ urls[i] +  "'><img src=" + feat_images[i]  + " width='100' /></a>"
+      content: "<a href='"+ location.url +  "'><img src=" + location.feat_image + " width='100' /></a>"
     });
     google.maps.event.addListener(marker, 'mouseover', function() {
       infowindow.open(map,marker);
@@ -70,9 +71,7 @@ if(document.getElementById('googleMap')){
     map: map
   });
 
-  console.log(urls);
-
-  addresses.map(function(addy){
-    inline(addy);
+  myLocations.map(function(location){
+    inline(location);
   });
 }

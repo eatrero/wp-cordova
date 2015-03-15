@@ -51,33 +51,16 @@
 
 
 <script type="text/javascript">
+  <?php $locations = cordova_get_locations(); ?>
 
-  var addresses = [
-  <?php
-    $locations = cordova_get_locations();
-  foreach ( $locations as $location ) :
-  ?>
-  "<?php echo $location['location']; ?>",
-<?php endforeach;
-  ?>
-];
-
-  var urls = [
+  var myLocations = [
   <?php
     foreach ( $locations as $location ) :
   ?>
-  "<?php echo $location['url']; ?>",
+  { location : "<?php echo $location['location']; ?>", url : "<?php echo $location['url']; ?>", feat_img : "<?php echo $location['feat_image']; ?>"},
 <?php endforeach;
   ?>
-];
 
-  var	feat_images  = [
-  <?php
-    foreach ( $locations as $location ) :
-  ?>
-  "<?php echo $location['feat_image']; ?>",
-<?php endforeach;
-  ?>
 ];
 </script>
 
