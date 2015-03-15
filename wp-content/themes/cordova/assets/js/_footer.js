@@ -19,8 +19,7 @@ function inline(location) {
     });
 
     var infowindow = new google.maps.InfoWindow({
-//              content: "<div class='iwContent'>"+addresses[i]+"</div>"
-      content: "<a href='"+ location.url +  "'><img src=" + location.feat_image + " width='100' /></a>"
+      content: "<a href='" + location.url + "'><img src=" + location.feat_img + " width='100' /></a>"
     });
     google.maps.event.addListener(marker, 'mouseover', function() {
       infowindow.open(map,marker);
