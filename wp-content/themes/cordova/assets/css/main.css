@@ -6451,6 +6451,18 @@ a:hover {
   blockquote.testimonial {
     font-size: 1.75em;
   }
+  main.main {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  div.container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  section.container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
 @media (min-width: 721px) {
   h1 {
@@ -6697,6 +6709,9 @@ a {
   .navbar-nav {
     margin: 0px;
   }
+  .nav > li {
+    display: block;
+  }
 }
 @media (min-width: 768px) {
   .navbar-nav {
@@ -6748,13 +6763,14 @@ a {
 }
 .dropdown-menu > li > a,
 .navbar-default .navbar-nav > li > a {
-  color: #9D9D9D;
+  color: #9D9D9f;
   text-transform: uppercase;
   position: relative !important;
   -webkit-transition: all 0.7s ease-in-out;
   -o-transition: all 0.7s ease-in-out;
   transition: all 0.7s ease-in-out;
 }
+.dropdown-menu > li > a:hover,
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > .active > a,
@@ -6766,7 +6782,7 @@ a {
 .navbar-default .navbar-nav > li > a:focus {
   color: white;
 }
-navbar-default .navbar-nav > .active > a:focus {
+.navbar-default .navbar-nav > .active > a:focus {
   color: #d3d3d3;
 }
 @media (max-width: 767px) {
@@ -7026,6 +7042,11 @@ h2.entry-title {
 .blog-article {
   background-color: white;
   padding: 24px;
+}
+@media (max-width: 720px) {
+  .blog-article {
+    padding: 0px;
+  }
 }
 .blog-images {
   padding: 10px 0 10px 0;
