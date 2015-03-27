@@ -74,8 +74,7 @@
 <script type="text/javascript">
     // When the document is ready
     $(document).ready(function () {
-      $( ".event-datepicker" ).datepicker();
-      $( ".event-datepicker" ).datepicker();
+      $( ".event-datepicker" ).datepicker({ minDate: 0, maxDate: "+5Y" });
       $( "p.testimonial").widont();
 
       $("[id='field_1_5']","[id='field_1_2']").wrapAll('<div class="row">');
