@@ -74,7 +74,6 @@
 <script type="text/javascript">
     // When the document is ready
     $(document).ready(function () {
-      $( ".event-datepicker" ).datepicker({ minDate: "+1D", maxDate: "+5Y" });
       $( "p.testimonial").widont();
 
       $("[id='field_1_5']","[id='field_1_2']").wrapAll('<div class="row">');
@@ -99,11 +98,15 @@
       $('#input_1_3').attr('id','input_1_3_a');
       $('#cal-btn').attr('id','cal-btn_a');
 
-      $("#cal-btn_a").click(function(){
+      $("#cal-btn_a,#input_1_3_a").click(function(){
+        $( "#input_1_3_a" ).datepicker('option', 'minDate', new Date() );
+        $( "#input_1_3_a" ).datepicker('option', 'maxDate', new Date(2020,11,31) );
         $("#input_1_3_a").datepicker('show');
       });
 
-      $("#cal-btn").click(function(){
+      $("#cal-btn,#input_1_3").click(function(){
+        $( "#input_1_3" ).datepicker('option', 'minDate', new Date() );
+        $( "#input_1_3" ).datepicker('option', 'maxDate', new Date(2020,11,31) );
         $("#input_1_3").datepicker('show');
       });
 
