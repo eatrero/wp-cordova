@@ -95,7 +95,19 @@
 
       $('.dropdown-toggle').attr('role','button');
 
+      $('#input_1_2').attr('id','input_1_2_a');
       $('#input_1_3').attr('id','input_1_3_a');
+      $('#input_1_4').attr('id','input_1_4_a');
+      $('#input_1_5').attr('id','input_1_5_a');
+      $('#gform_submit_button_1').attr('id','gform_submit_button_1_a');
+
+      var indxs = ["#input_1_5_a", "#input_1_2_a", "#input_1_3_a", "#input_1_4_a", "#gform_submit_button_1_a", "#input_1_5", "#input_1_2", "#input_1_3", "#input_1_4", "#gform_submit_button_1"];
+
+      indxs.forEach( function(indx, i) {
+        $(indx).attr('tabindex',i+1);
+      });
+
+
       $('#cal-btn').attr('id','cal-btn_a');
 
       $("#cal-btn_a,#input_1_3_a").click(function(){
@@ -110,6 +122,8 @@
         $("#input_1_3").datepicker('show');
       });
 
+
+
       $('.contact-form').show();
     });
 </script>
@@ -123,8 +137,7 @@
    }). done(function( data ) {
     var recent_post_url = data.data[0].images.standard_resolution.url;
     console.log(data.data[0].location.name);
-//    console.log(data.data[0].images.thumbnail);
-    $(".result").html("<a href='http://instagram.com/ncordovaphoto' target='_blank'><figure class='lead-image-container2'> <img src='" + recent_post_url + "' class='img-responsive'/><figcaption><h2 class='entry-title'>" + (data.data[0].location.name  ? data.data[0].location.name  :'' ) + "</h2></figcaption></figure> </a>");
+    $(".result").html("<a href='http://instagram.com/cordovastudios' target='_blank'><figure class='lead-image-container2'> <img src='" + recent_post_url + "' class='img-responsive'/><figcaption><h2 class='entry-title'>" + (data.data[0].location.name  ? data.data[0].location.name  :'' ) + "</h2></figcaption></figure> </a>");
   });
 
 </script>
