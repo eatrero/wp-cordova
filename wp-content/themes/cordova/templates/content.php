@@ -1,7 +1,13 @@
 <article <?php post_class(); ?>>
   <header>
 		<?php $hasFeaturedImage = has_post_thumbnail();?>
-		<?php	$feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
+		<?php
+			$feat_image = '';
+		  $feat_image_c = image_downsize( get_post_thumbnail_id($post->ID), 'cordova' );
+		  if($feat_image_c[0])
+		    $feat_image = $feat_image_c[0];
+		  if( !$feat_image)
+			  $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
 		<?php if($feat_image): ?>
 			<a href="<?php the_permalink(); ?>">
 			<figure class="col-sm-12 col-xs-12 lead-image-container">
