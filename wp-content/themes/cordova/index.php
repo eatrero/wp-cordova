@@ -23,13 +23,13 @@
     <?php if( $i%2 ){ ?>
         <div class='col-sm-6 col-xs-12 article-container'>
           <div class='blog-thumb-left'>
-            <?php get_template_part('templates/content', get_post_format()); ?>
+            <?php get_template_part('templates/contentlarge', get_post_format()); ?>
           </div>
         </div>
     <?php   } else { ?>
         <div class='col-sm-6 col-xs-12 article-container'>
           <div class='blog-thumb-right'>
-            <?php get_template_part('templates/content', get_post_format()); ?>
+            <?php get_template_part('templates/contentlarge', get_post_format()); ?>
           </div>
         </div>
     <?php   } ?>
