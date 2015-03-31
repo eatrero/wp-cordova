@@ -26,7 +26,9 @@ function inline(location) {
       infowindow.open(map,marker);
     });
     google.maps.event.addListener(marker, 'mouseout', function() {
-      infowindow.close();
+      setTimeout(function(){
+        infowindow.close();
+      }, 2000);
     });
 
   });

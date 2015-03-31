@@ -25,6 +25,12 @@ function inline(location) {
       infowindow.open(map,marker);
     });
 
+    google.maps.event.addListener(marker, 'mouseout', function() {
+      setTimeout(function(){
+        infowindow.close();
+      }, 2000);
+    });
+
   });
 }
 
