@@ -76,6 +76,14 @@ function cordova_get_featured() {
     $feature = get_post_meta( $post->ID, 'featured', true );
     $title = get_the_title( $post->ID );
 
+    $categories = get_the_category( $post->ID );
+
+    foreach($categories as $category) {
+      if(strcasecmp($category->name, 'Weddings') != 0 &&
+         strcasecmp($category->name, 'Engagements') != 0)
+        $feature = 0;
+    }
+
     if($feature) {
       $url = get_permalink( $post->ID );
       $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
