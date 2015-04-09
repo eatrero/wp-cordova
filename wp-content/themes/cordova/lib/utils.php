@@ -197,3 +197,11 @@ function cordova_get_portfolio_sc( $atts ) {
   return $output;
 
 }
+
+function replace_the_text($content) {
+	$content = str_replace("’", "'", $content);
+	$content = str_replace(" ", " ", $content);
+	return $content;
+}
+
+add_filter('the_content', 'replace_the_text');

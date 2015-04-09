@@ -25,6 +25,7 @@ function inline(location) {
     google.maps.event.addListener(marker, 'mouseover', function() {
       infowindow.open(map,marker);
     });
+
     google.maps.event.addListener(marker, 'mouseout', function() {
       setTimeout(function(){
         infowindow.close();
@@ -80,6 +81,8 @@ if(document.getElementById('googleMap')){
     inline(location);
   });
 }
+
+
 
 },{"underscore":2}],2:[function(require,module,exports){
 //     Underscore.js 1.7.0
