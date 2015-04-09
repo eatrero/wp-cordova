@@ -79,8 +79,7 @@ function cordova_get_featured() {
     $categories = get_the_category( $post->ID );
 
     foreach($categories as $category) {
-      if(strcasecmp($category->name, 'Weddings') != 0 &&
-         strcasecmp($category->name, 'Engagements') != 0)
+      if(strcasecmp($category->name, 'Weddings') != 0 )
         $feature = 0;
     }
 
