@@ -82,8 +82,6 @@ if(document.getElementById('googleMap')){
   });
 }
 
-
-
 },{"underscore":2}],2:[function(require,module,exports){
 //     Underscore.js 1.7.0
 //     http://underscorejs.org
