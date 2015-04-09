@@ -6662,6 +6662,9 @@ body {
 a {
   color: #5e5e5e;
 }
+p > a {
+  color: #0014FF;
+}
 .result {
   width: 100%;
 }
